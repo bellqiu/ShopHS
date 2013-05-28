@@ -571,4 +571,13 @@
 		<property name="phone" length="100"></property>
 		
 	</class>
+	
+	<class name="Setting" table="Setting">
+		<id name="id" column="ID">
+			<generator class="identity"></generator>
+		</id>
+		<property name="key" column="k"></property>
+		<property name="value" column="v" ></property>
+	</class>
+	
 </hibernate-mapping>
