@@ -1,0 +1,98 @@
+<div class="product-comments">
+	<#if productInfo.showComments>
+		<h3 style="float: left;">Comments</h3>
+		<div id='commentsDiv' style=" clear: left;"></div>
+		<script type='text/javascript'>
+			var conf = {}
+			var params ={
+				categoryID: 'JoyBuy',
+				streamID: '${productInfo.name}',
+				containerID: 'commentsDiv',
+				cid:'',
+				width: '100%'
+			}
+			gigya.services.socialize.showCommentsUI(conf,params);
+		</script>
+	</#if>
+</div>
+<link rel="stylesheet" href="${pageBaseURL}/script/review/ProductReview.css?802" />
+<script src="${pageBaseURL}/script/review/ProductReview.js?802" type="text/javascript"></script>
+<div id="Product-Comments">
+	<div class="reviewHeader">
+		<div>
+			<h2>Ratings & Reviews</h2>
+			<span>*****</span><a>Based on 37 reviews</a>
+		</div>
+		<div>
+				<form>
+						<button type="submit" name="isUseful" value="yes">Write New Comments</button>
+				</form>
+		</div>
+	</div>
+	<div class="reviewBody clearfix">
+		<div class="reviewGroup">
+			<h3>Most Useful Reviews</h3>
+			<div class="reviewItem">
+				<span class="userRating">*****</span>
+				<h2 class="reviewTitle">Best protectors hands down</h2>
+				<ul class="reviewAuthorInfo">
+					<li>Written by Jordan J H from Fort Macleod</li>
+					<li>Oct 30, 2012</li>
+				</ul>
+				<p class="reviewContent">
+					Power support is by far the best manufacturer of screen protectors. 
+
+					Fingerprints are non existent. 
+					Easily cleaned with microfiber cloth. 
+					Inexpensive ($15 for two) 
+					Easy to install with a bit of patience 
+					Anti glare is excellent 
+					
+					There is a recurring comment that bothers me. People say it makes the screen look like a non retina screen. This is 100% completely false. I have compared my iPhone 4 with this protector to a 3GS without protector and it is significantly different. This does in no way ruin the retina display. Sure there is a very slight pattern to the screen but its very unnoticeable. After a day you can't even see it unless you hold the phone half an inch from your eye. The earlier versions of Power Support Anti Glare (3GS and below) were significantly more grainy looking, but the ones for iPhone 4/4S/5 (they have HD in the title) are a HUGE improvement over previous generations. 
+					
+					Don't hesitate to buy these, I've tried all the other major brands and have always been disappointed. I've even had one of these on my iPhone 4 for 2 years with no peeling up or any signs of wear, they are truly amazing.
+				</p>
+				<span class="reviewVoteInfo">216 of 261 people found this useful</span>
+				<div  class="reviewVoteForm">
+					<span >Was this useful? </span>
+					<form>
+						<button type="submit" name="isUseful" value="yes">Yes</button>
+						<button type="submit" name="isUseful" value="no">No</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="reviewGroup">
+			<h3>Most Recent Reviews</h3>
+			<div class="reviewItem">
+				<span class="userRating">*****</span>
+				<h2 class="reviewTitle">Best protectors hands down</h2>
+				<ul class="reviewAuthorInfo">
+					<li>Written by Jordan J H from Fort Macleod</li>
+					<li>Oct 30, 2012</li>
+				</ul>
+				<p class="reviewContent">
+					Power support is by far the best manufacturer of screen protectors. 
+
+					Fingerprints are non existent. 
+					Easily cleaned with microfiber cloth. 
+					Inexpensive ($15 for two) 
+					Easy to install with a bit of patience 
+					Anti glare is excellent 
+					
+					There is a recurring comment that bothers me. People say it makes the screen look like a non retina screen. This is 100% completely false. I have compared my iPhone 4 with this protector to a 3GS without protector and it is significantly different. This does in no way ruin the retina display. Sure there is a very slight pattern to the screen but its very unnoticeable. After a day you can't even see it unless you hold the phone half an inch from your eye. The earlier versions of Power Support Anti Glare (3GS and below) were significantly more grainy looking, but the ones for iPhone 4/4S/5 (they have HD in the title) are a HUGE improvement over previous generations. 
+					
+					Don't hesitate to buy these, I've tried all the other major brands and have always been disappointed. I've even had one of these on my iPhone 4 for 2 years with no peeling up or any signs of wear, they are truly amazing.
+				</p>
+				<span class="reviewVoteInfo">216 of 261 people found this useful</span>
+				<div  class="reviewVoteForm">
+					<span >Was this useful? </span>
+					<form>
+						<button type="submit" name="isUseful" value="yes">Yes</button>
+						<button type="submit" name="isUseful" value="no">No</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

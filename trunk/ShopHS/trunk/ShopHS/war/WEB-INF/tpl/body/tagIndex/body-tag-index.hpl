@@ -1,0 +1,25 @@
+<div class="main_box" id="main_box">
+	<#include "include.hpl">
+	<div class="tag-index-container_keys">
+	<#if currentIndexKeyList ??> 
+		<#assign ck= currentKeyword?trim?replace(" ", "-")>
+		<dl>
+			<dt>
+				<a title="${currentKeyword}"
+					href='${siteView.host}/tags/index/${ck}'>
+					${currentKeyword} </a>
+			</dt>
+			<#list currentIndexKeyList as kw>
+
+			<dd>
+				<a href='${siteView.host}/tags/k/${kw?trim?replace(" ", "-")}'>${kw}</a>
+			</dd>
+
+			</#list>
+		</dl>
+		<p class="clearBoth"></p>
+		<#include "fragments/pagination.hpl">
+	</#if>
+	</div>
+	<p class="clearBoth"></p>
+</div>

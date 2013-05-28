@@ -1,0 +1,9 @@
+<#assign pageKeywords = "tag, tags, keyword, Joybuy.co.uk">
+<#assign pageDescription = "Tags on Joybuy.co.uk, search your fashion product with tags! Quality Guaranteed! Buy Now!">
+<#assign pageTitle = "Tags on Joybuy.co.uk, find your fashion and cheap product with tags on Joybuy.co.uk!">
+
+<#include "/header/top.hpl">
+
+<#include "/body/tagIndex/body-tag-index_all.hpl">	
+
+<#include "/footer/bottom.hpl">

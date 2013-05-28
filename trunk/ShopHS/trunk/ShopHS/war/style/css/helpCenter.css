@@ -1,0 +1,180 @@
+ @charset "utf-8";
+/******** helpCenter CSS Document star ********/
+#helpcenter ul,li{ margin:0px; padding:0; list-style:none;}
+#helpcenter img{ border:0; vertical-align:top;}
+#helpcenter a{ color:#484848; text-decoration:none;}
+#helpcenter a:hover{ color:#ff5a00}
+#helpcenter .left{float:left}
+#helpcenter .right{float:right;}
+#helpcenter .clear{ clear:both}
+#helpcenter .mid{ width:972px; margin:0 auto}
+/******** helpCenter CSS left**/
+#helpcenter .help_left{ float:left; width:169px; padding:0 10px 0 10px; background:url(/style/image/pic/help-leftB.jpg) repeat-x ; border:1px solid #cacaca}
+#helpcenter .help_left h3{ line-height:30px;font-family: Arial, Helvetica;font-size: 18px; font-weight: bold;}
+#helpcenter .help_left .help_menu span{font-family: Arial, Helvetica;font-size:13px; color:#555; margin-bottom:5px; display:block;}
+#helpcenter .help_left .help_menu span a{ line-height:18px;color:#333}
+#helpcenter .help_left .help_menu ul li{background: url(/style/image/pic/huise.png) no-repeat 0 6px;padding:0 0 0 6px;font-size:12px;line-height:25px;}
+#helpcenter .help_left .help_menu ul li a{color:#484848;line-height:16px;}
+#helpcenter .help_left .help_menu ul li a:hover{color:#ff5a00}
+#helpcenter .help_left .help_menu .collapse_btn{vertical-align:middle; margin-right:5px;cursor: pointer;}
+#helpcenter .help_left .help_menu ul{display:none;}
+/******** helpCenter CSS right**/
+#helpcenter .help_right{ float:right; width:771px}
+#helpcenter .help_right .help_ti{ margin-bottom:10px}
+#helpcenter .help_ti span a{color:#186BD0}
+#helpcenter .help_ti .help_title{ text-align:center; line-height:30px;font-family: Arial, Helvetica;font-size:20px; font-weight: bold;}
+#helpcenter .help_ti span{ line-height:18px;font-family: Arial, Helvetica;font-size:13px;}
+#helpcenter .help_right .help_Problem{}
+#helpcenter .help_Problem_Block{ width:378px; border:1px solid #686868; float:left; margin-bottom:15px}
+#helpcenter .one{ float:right}
+#helpcenter h4.help_title{ display:block;line-height:30px;font-family: Arial, Helvetica;font-size:16px; font-weight:bold; text-indent:12px; padding-bottom:10px}
+#helpcenter .help_Problem_Block ul li{ padding:0 0 0 20px;font-size:12px; background: url(/style/image/pic/sanjiao.png) no-repeat 10px 6px; line-height:20px}
+#helpcenter .help_Problem_Block ul li a{ font-family: Arial, Helvetica;}
+#helpcenter .help_Problem_Block span{ display:block; margin:15px 10px;font-family: Arial, Helvetica;text-align:right}
+#helpcenter .help_more ul li{ padding:0 0 0 20px;font-size:12px; background: url(/style/image/pic/sanjiao.png) no-repeat 10px 6px; line-height:20px}
+#helpcenter .help_more ul li a{ font-family: Arial, Helvetica;}
+#helpcenter .help_more span{ display:block; margin:15px 10px;font-family: Arial, Helvetica;}
+/******** helpCenter CSS detail**/
+#helpcenter .help_ti .detail_title{ line-height:30px;font-family: Arial, Helvetica;font-size:20px; font-weight: bold;}
+#helpcenter .detail span a{color:#186bd0}
+#helpcenter .help_ti span p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .help_right .detail{}
+#helpcenter .detail table{ border-collapse:collapse; border:1px solid #666666;border-spacing:0; margin-bottom:10px;}
+#helpcenter .detail td{ text-align:center}
+#helpcenter .detail td,th{ border:1px solid #666666; line-height:20px; padding:5px 0 5px 5px}
+#helpcenter .detail .detail_font a{ color:#ff5a00}
+#helpcenter .detail .detail_font p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .detail span p{font-family: Arial, Helvetica; line-height:20px; font-size:12px;}
+#helpcenter .help_right .detail_font p{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .detail .detail_font h4{font-family: Arial, Helvetica; line-height:20px}
+#helpcenter .detail span{ margin:10px 0 10px 0; display:block; font-size:12px;}
+#helpcenter .detail h2{ margin:10px 0 10px 0;display:block;font-family: Arial, Helvetica; font-weight:bold; font-size:14px;}
+#helpcenter .detail ul{ width:180px; background:#7f7b72}
+#helpcenter .detail li{ line-height:20px; height:20px;}
+#helpcenter .detail ul li a{font-family: Arial, Helvetica; font-size:14px; display:block; text-indent:30px; background:url(/style/image/pic/pagebg.png) no-repeat 5px -40px; color:#dbccbd;}
+#helpcenter .detail ul li a:hover{ text-decoration:underline}
+#helpcenter .detail ul li a.use1{ background-position:5px -106px}
+#helpcenter .detail ul li a.use2{ background-position:5px -128px}
+#helpcenter .detail ul li a.use3{ background-position:5px 4px}
+#helpcenter .detail ul li a.use4{ background-position:5px -18px}
+#helpcenter .detail ul li a.use5{ background-position:5px -151px}
+#helpcenter .detail ul li a.use6{ background-position:5px -84px}
+#helpcenter .detail ul li a.use7{ background-position:5px -173px}
+#helpcenter .detail ul li a.use8{ background-position:5px -62px}
+#helpcenter .detail .centent{ width:771px; margin:10px auto; text-align:center}
+/******** helpCenter CSS Document END ********/
+/*****index-left css star*****/
+#index_left img{ border:0; vertical-align:top;}
+#index_left h2,dl,dd,dt{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#index_left{ width:191px;}
+#index_left ul,li{ list-style:none; padding:0; margin:0;}
+#index_left .left_menu{border:1px solid #ccc; height:185px;}
+#index_left .left_menu .left_title{ background:url(/style/image/pic/left-title.jpg) repeat-x scroll; height:33px; line-height:33px; font-size:20px; text-indent:10px; font-weight:bold; color:#0060c5}
+#index_left .left_menu li{ background:url(/style/image/pic/jiantou.png) no-repeat 8px 10px scroll; line-height:25px; text-indent:8px; color:#333; text-indent:15px;}
+#index_left .left_menu li a{ color:#222; text-decoration:none; font-size:12px;}
+#index_left .product_1{ border:1px solid #ccc}
+#index_left dl{ height:135px; border-bottom:1px dotted #a9a9a9;}
+#index_left dl:hover{ background:#eee}
+#index_left dl dt{float:left; width:80px; height:123px; margin:13px 5px 0 5px; display:inline}
+#index_left dl dd{float:left; width:80px;font-size:11px; color:#666; margin-top:15px;}
+#index_left dl dd a{font-size:11px; color:#666; text-decoration:none}
+#index_left dl dd p{ padding:0; margin:10px 0 0 0; font-size:13px; color:#0869d0}
+/*****index-left css end*****/
+/*****Company Info css star*****/
+#AboutUs{width:972px;margin:0 auto}
+#AboutUs html,body,p,ul,li,h2,h3,h4{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica;}
+#AboutUs ul,li{list-style:none;}
+#AboutUs img{ border:0; vertical-align:top;}
+#AboutUs .top_bottom{ position:fixed; right:200px;bottom:350px;width:30px;clear:both}
+#AboutUs .top_bottom a{ margin-top:10px; display:block; text-align:center; text-decoration:none;color:#666}
+#AboutUs .left{ width:171px; padding:0 10px; background:#EFEFEF; float:left}
+#AboutUs .left h2{ font-size:18px;color:#333;line-height:28px;}
+#AboutUs .left li{ text-indent:12px; background:url(/style/image/pic/sanjiao.png) no-repeat 0 11px; line-height:28px}
+#AboutUs li a{color:#333; text-decoration:none; font-size:14px;}
+#AboutUs li a:hover{color:#ff7200;}
+#AboutUs .right { width:771px; float:right}
+#AboutUs .right h2{ font-size:18px; line-height:28px;color:#333}
+#AboutUs .right a{ text-decoration:none;color:#ff7200}
+#AboutUs .right .norton{width:771px;height:90px;}
+#AboutUs .center p{clear:both;line-height:20px;}
+#AboutUs .center p span{ font-size:18px;}
+#AboutUs .center h4{margin:13px 0; font-size:14px}
+#AboutUs .center h3{ margin-top:8px}
+#AboutUs .center b{ margin-top:10px; display:block}
+#AboutUs .center .text-z{ text-indent:15px}
+#AboutUs .center .p-line{border-bottom:1px solid #000;padding-bottom:15px}
+#AboutUs .center .img-center{ text-align:center}
+#AboutUs .center b.imgb img{ margin-left:40px;display:inline}
+#AboutUs .center .txt{ padding-bottom:20px;border-bottom:solid 1px #000; margin-bottom:20px}
+#AboutUs .center p.txt-2{color: rgb(102, 102, 102); font-family: Georgia, 'Times New Roman', times, serif; font-size:large; line-height:22px; text-align:center}
+#AboutUs .center p.align{ text-align:right;padding-right:30px; margin-left:5px}
+#AboutUs .center .txt-tu{ float:right;text-align:right; padding-right:30px; padding-left:5px; margin-top:8px}
+#AboutUs .center .txt-tu2{ float:right; width:10%; text-align:right; padding-top:2px;margin-top:8px}
+/*****Company Info css end*****/
+/******** suits-size css star *******/
+#suits_size { width:970px; margin:0 auto}
+#suits_size p{text-align:justify; margin-bottom:10px; font-size:12px;}
+#suits_size .sizechart-tb { margin:10px 0;}
+#suits_size .sizechart_title { font-size: 30px; font-weight: bold; text-align:center; color: #000000; letter-spacing: -1px; margin: 15px 0px 15px 0px; } 
+#suits_size .sizechart_title2 { font-size: 20px;  font-weight: bold; text-align: left; color: #000000; letter-spacing: -1px; margin-bottom: 10px; }
+#suits_size .sizechart_text { font-size: 16px; color: #000000; }
+#suits_size .sizetd-head { background: #bfbfbf; border-bottom: 2px solid white; color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size:12px; height: 20px; text-align: center; }
+#suits_size .sizetd { background: #e4e4e4; border-bottom: 2px solid white; color: black; font-family: Arial, Helvetica, sans-serif; height: 20px; text-align: center; font-size: 12px; }
+#suits_size .sizetd-a { background: #ffffff; border-bottom: 2px solid white; color: black; font-family: Arial, Helvetica, sans-serif; height: 20px; text-align: center; font-size: 12px; }
+#suits_size .sizetd-title {background: #a1a1a1; border-bottom: 2px solid white; color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; height: 30px; text-align: left; padding-left: 10px; border-bottom: 2px solid #ffffff; }
+/******** suits-size css end *******/
+/******** bottom css star *******/
+.jbfooter ul,li{ margin:0; padding:0; list-style:none;}
+.jbfooter{ width:972px; margin:0 auto}
+.jbfooter .row{height:160px; padding-top:34px;}
+.jbfooter .centered-row{ width:100%; text-align:center}
+.jbfooter .footer-center{ float:left; width:52%; margin-left:10px;}
+.jbfooter .box-01{ float:left; width:150px; margin:0 0 0 17px; display:inline; border-right:1px dotted #666;}
+.jbfooter .box-01 .title{ padding:0 0 8px 0}
+.jbfooter .box-01 .title p{font-size:10px; color:#888; margin-top:10px}
+.jbfooter .search_bottom{margin-top:10px;}
+.jbfooter .search_bottom{margin-top:10px;}
+.jbfooter .search_bottom #txt_Emails{color:#333; height:20px; width:150px}
+ .jbfooter .search_bottom img{ margin-left:3px;}
+ 
+.jbfooter .box-01 h3{ margin:0; padding:0; font:bold 14px/16px Tahoma, Arial, Helvetica, sans-serif;}
+.jbfooter .box-01 li{font:13px/18px Tahoma, Arial, Helvetica, sans-serif; background:url("/style/image/pic/jiantou.png") no-repeat scroll 0 8px transparent; text-indent:8px;}
+.jbfooter .box-01 a{ text-decoration:none; color:#222;text-shadow:1px 1px #fff}
+.jbfooter .box-01 a:hover{ text-decoration:underline}
+.jbfooter .centered-row span{ font:bold 20px/24px Arial, Helvetica, sans-serif;}
+.jbfooter .Subscribe{ margin:0 0 10px 17px; padding-top:12px}
+.jbfooter .subscribeText{ border:1px solid #333; padding:5px; width:130px;}
+.jbfooter .buttom{ background:#AA0000; color:#fff; width:76px; margin-left:5px; padding:5px; border:0; cursor:pointer}
+.jbfooter .copy-txt{ font:13px/20px Tahoma, Arial, Helvetica, sans-serif; text-align:center;}
+.jbfooter .social-icon{ float:left}
+#bottom{width:972px; margin:20px auto 0 auto; border-top:1px solid #ccc; }
+#bottom h2,h3,dl,dd,dt{ margin:0; padding:0; font-size:11px; font-family: Arial, Helvetica;}
+#bottom h3{ font-weight:normal; font-size:11px}
+#bottom a{color:#666; text-decoration:none}
+#bottom a:hover{ color:#cb4634;}
+#bottom .pic{ margin-top:10px}
+#bottom .pic dl{ width:237px; height:99px; float:left; border-right:1px #ccc dotted;}
+#bottom .pic dl.dl-5{ margin-left:5px;}
+#bottom .pic dl dt{ float:left; width:83px; margin:7px}
+#bottom .pic dl dd h2{ font-size:12px; margin-top:10px}
+#bottom .pic dl dd{ float:left; width:140px; line-height:20px; font-size:11px}
+ 
+ .Promise{ width:972px;font-family:Arial; margin:0 auto}
+.Promise ul{margin:0; padding:0;}
+.Promise li{position:relative;list-style:none; margin:0 15px 0 0; padding:0; display:block; float:left; width:177px; height:120px; border:1px solid #D1D1D1}
+.Promise li h2{margin:10px; padding:0; font-size:14px;}
+.Promise li p{margin:0 0 0 10px; padding:0; font-size:12px; line-height:20px;}
+.Promise .img_position{position:absolute;bottom:-18px; right:-7px; background:url("http://www.joybuy.co.uk/style/image/qw.png")}
+.Promise .img01{width:52px; height:51px; background-position:-163px -18px}
+.Promise .img02{width:49px; height:69px; background-position:-215px 0}
+.Promise .img03{width:83px; height:52px; background-position:-264px -17px}
+.Promise .img04{width:74px; height:63px; background-position:-86px -3px}
+/******** bottom css end *******/
+ .joybuy_menu001{ width:972px;}
+.joybuy_menu001 h2{ margin:0; padding:0; font-size:13px; font-family:Arial;}
+.joybuy_menu001 dl{ margin:0; padding:0; width:200px; border-right:1px solid #CCC; margin-left:28px; padding-right:28px; float:left}
+.joybuy_menu001 dd{ margin:0; padding:0;}
+.joybuy_menu001 ul{ margin:0; padding:0; list-style:none}
+.joybuy_menu001 li{ margin:0; padding:0; list-style:none; line-height:18px;}
+.joybuy_menu001 h3{ margin:0; padding:0; font-size:12px; font-family:Arial; font-weight:normal}
+.joybuy_menu001 h3 a{ display:block; padding:3px 0 0 12px; background:url(/style/image/list-right-arrow.gif) no-repeat 3px 10px}

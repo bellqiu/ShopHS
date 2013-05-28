@@ -1,0 +1,11 @@
+<#assign pageKeywords = "Knowledge Base, Customer Service, Ways To Save, Company Policy on joybuy.co.uk">
+<#assign pageDescription = "Welcome to joybuy.co.uk Knowledge Base! - Customer Service, Company Info, Ways To Save, Company Policy on joybuy.co.uk">
+<#assign pageTitle = "Welcome to joybuy.co.uk Knowledge Base!">
+
+
+
+<#include "/header/top.hpl">
+
+<#include "/body/hc/hcIndex.hpl">	
+
+<#include "/footer/bottom.hpl">

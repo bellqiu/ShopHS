@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="/style/css/helpCenter.css?799">
+
+<div class="main_box" id="main_box">
+<#include "left.hpl">
+<div id="helpcenter">
+<div class="help_right">
+<div class="help_ti">
+  <div class="detail_title">4.Paying by Credit Card</div></div>
+<div class="detail">
+<!--gai-->
+<!--gai-->
+</div>
+</div><p class="clearBoth"></p>
+</div></div>

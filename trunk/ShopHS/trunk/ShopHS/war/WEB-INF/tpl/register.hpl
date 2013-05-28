@@ -1,0 +1,36 @@
+<#assign pageKeywords = "New user registration, joybuy.co.uk, Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageDescription = "New user registration : joybuy.co.uk - Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageTitle = "New user registration : joybuy.co.uk">
+
+
+<#include "/header/top.hpl">
+<#include "/body/body-uc-reg.hpl">
+
+
+
+
+	
+<#include "/footer/ucf1.hpl">
+
+<!-- Google Code for register Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 992693616;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "FKgCCLCpqAQQ8Jqt2QM";
+var google_conversion_value = 10;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/992693616/?value=10&amp;label=FKgCCLCpqAQQ8Jqt2QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google Code for register Conversion Page End-->
+
+
+<#include "/footer/bottom.hpl">

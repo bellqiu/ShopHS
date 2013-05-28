@@ -1,0 +1,12 @@
+<#assign pageKeywords = "Globebill, Joybuy.com"> 
+<#assign pageDescription = "Pay by Globebill"> 
+<#assign pageTitle = "Pay by Globebill">
+<#include "/header/top_clean.hpl">
+
+<#assign cartStep = 'cartStep2' >
+<#include "/header/top_no_nav.hpl">
+
+<#include "/body/body-sp-credit-card.hpl">	
+
+
+<#include "/footer/bottom_clean.hpl">

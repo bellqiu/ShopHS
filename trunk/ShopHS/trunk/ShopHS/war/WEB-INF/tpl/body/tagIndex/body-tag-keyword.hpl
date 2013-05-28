@@ -1,0 +1,29 @@
+<#assign calculateImageSize = "com.spshop.web.function.CalculateImage"?new()> 
+<#assign imageSize = imageSize >
+<#assign hAndPadding = calculateImageSize(imageSize[0]?string, imageSize[1]?string, imageSize[2]?string, "225")>
+<#assign ck=currentKeyword2?trim?replace(" ", "-")>
+<div class="main_box" id="main_box">
+	<#include "include.hpl">
+
+	<div class="left-region">
+		<div class="height-10"></div>
+
+		<#assign topSellingProduct=topSellingTabProduct.products > 
+		<#include "/body/uc-inc/fragments/top-selling.hpl">
+	</div>
+
+	<div class="right-region">
+		<div class="height-10"></div>
+		<div class="products-box">
+			<ul>
+				<#list tagedProducts as product>
+					<#include "/body/uc-inc/fragments/product-item.hpl">
+				</#list>
+				<p class="clearBoth"></p>
+			</ul>
+			<div class="height-20"></div>
+		</div>
+		<#include "fragments/tag-products-pagination.hpl">
+	</div>
+	<p class="clearBoth"></p>
+</div>

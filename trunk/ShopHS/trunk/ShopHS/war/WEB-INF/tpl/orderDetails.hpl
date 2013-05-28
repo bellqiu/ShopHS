@@ -1,0 +1,8 @@
+<#assign pageKeywords = "Order Details on joybuy.co.uk, Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageDescription = "Order Details on joybuy.co.uk - Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageTitle = "Order Details on joybuy.co.uk: Fashion Dress, Apparel, Suits With Free Shipping">
+
+
+<#include "/header/top.hpl">
+<#include "/body/body-sp-orderDetails.hpl">	
+<#include "/footer/bottom.hpl">

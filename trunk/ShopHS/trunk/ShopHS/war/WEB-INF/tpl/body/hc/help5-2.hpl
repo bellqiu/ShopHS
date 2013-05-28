@@ -1,0 +1,12 @@
+<div class="main_box" id="main_box">
+<#include "left.hpl">
+<div id="helpcenter">
+<div class="help_right">
+<div class="help_ti">
+  <div class="detail_title">2.	How to pay with credit/debit card</div></div>
+<div class="detail">
+<!--gai-->
+<!--gai-->
+</div>
+</div><p class="clearBoth"></p>
+</div></div>

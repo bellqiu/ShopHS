@@ -1,0 +1,41 @@
+#Product-Comments {
+	background: #fff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.reviewHeader {
+	margin: 0 24px;
+	padding: 23px 0 9px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.reviewBody {
+	width: auto;
+	background: 0;
+}
+
+.reviewGroup {
+	float: left;
+	width: 380px;
+	margin: 0 1px 0 25px;
+	padding: 5px;
+}
+
+.reviewItem{
+	padding: 11px 0 16px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}

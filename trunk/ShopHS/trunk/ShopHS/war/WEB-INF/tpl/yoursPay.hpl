@@ -1,0 +1,20 @@
+<#assign pageKeywords = "YoursPay, Joybuy.co.uk">
+<#assign pageDescription = "Pay by YoursPay">
+<#assign pageTitle = "Pay by YoursPay">
+
+<#include "/header/top_clean.hpl">
+<p>redirecting to YoursPay site</p>
+<div>
+	<#assign defaultOrder = currentOrder>
+	
+	<form method="post"  id="paypaysubmitForm" action="https://security.credit-pay.com/sslpayment/InterfaceMix" name="E_FORM">
+		<input type="hidden" name="TradeInfo" value="${tradeInfo}">
+	</form>
+	
+	<script type="text/javascript">
+		//jq("#paypaysubmitForm").submit();
+	</script>
+	
+</div>
+	
+<#include "/footer/bottom_clean.hpl">

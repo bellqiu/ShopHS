@@ -1,0 +1,2 @@
+serviceClass: com.spshop.manager.client.service.HelloService
+path: 2F78A7C016ABCB987A857052BA9D4641.gwt.rpc

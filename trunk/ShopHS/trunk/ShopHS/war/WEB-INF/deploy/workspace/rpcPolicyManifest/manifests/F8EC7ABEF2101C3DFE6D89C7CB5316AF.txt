@@ -1,0 +1,2 @@
+serviceClass: com.spshop.admin.client.businessui.service.AdminService
+path: BA0EE0F2884D8CB96AC55F62AFCBBE03.gwt.rpc

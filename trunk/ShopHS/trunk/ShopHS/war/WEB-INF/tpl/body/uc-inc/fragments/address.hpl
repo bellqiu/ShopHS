@@ -1,0 +1,4 @@
+<ul class="addrSummary">
+		<#include "address_content.hpl">
+		<LI><button class="button_01" action="edit" onclick="editUserShippingAddress(this,'${address.id}')">Edit</button><button class="button_01" onclick="deleteUserShippingAddress(this,'${address.id}')">Delete</button></LI>
+</ul>

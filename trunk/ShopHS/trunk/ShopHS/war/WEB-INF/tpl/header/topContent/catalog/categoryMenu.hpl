@@ -1,0 +1,145 @@
+<div id="main_menu" class="main_menu">
+	<ul>
+		<li><span> <a href="http://joybuy.co.uk/" title="Home">Home</a>
+			</span>
+		</li>
+		<#list siteView.categories as catlog>
+			<#if (catlog.name!='home' && catlog.enable)>
+				<li>
+					<span>
+					<#if catlog.url?trim != "">
+						<a href='${(catlog.url?trim)}' title="${catlog.displayName}">${catlog.displayName}</a></span>
+					<#else>
+						<a href='${(siteView.host+"/c/"+catlog.name)!""}' title="${catlog.displayName}">${catlog.displayName}</a></span>
+					</#if>
+						<#if !(catlog.subCategories?? && ((catlog.subCategories)?size == 0))>
+							<div class="sub_menu">
+								<div class="inner_boxA">
+										<#list catlog.subCategories as subcatlog>
+											<#if (!subcatlog.specialOffer && subcatlog.enable)>
+												<dl>
+													<dt>
+													<#if subcatlog.url?trim != "">
+														<a href="${(subcatlog.url?trim)}"
+															title="${subcatlog.displayName}">${subcatlog.displayName} </a>
+													<#else>
+														<a href="${(siteView.host+"/c/"+subcatlog.name)}"
+															title="${subcatlog.displayName}">${subcatlog.displayName} </a>
+													</#if>
+													</dt>
+													<#if subcatlog.subCategories??>	
+														<#assign subsubcatlogIndex = 0>
+														<#list subcatlog.subCategories as subsubcatlog>
+															<#if (!subsubcatlog.specialOffer && subsubcatlog.enable)>
+															<dd>
+															<#if subsubcatlog.url?trim != "">
+																<a href="${(subsubcatlog.url?trim)}"
+																	title="${subsubcatlog.displayName}"> ${subsubcatlog.displayName}
+																</a>
+															<#else>
+																<a href="${(siteView.host+"/c/"+subsubcatlog.name)}"
+																	title="${subsubcatlog.displayName}"> ${subsubcatlog.displayName}
+																</a>
+															</#if>
+															</dd>
+															<#assign subsubcatlogIndex = (subsubcatlogIndex + 1) >
+															</#if>
+															<#if (subsubcatlogIndex > 5)>
+																<#break>
+															</#if>
+														</#list>
+															<dd>
+																<#if subcatlog.url?trim != "">
+																	<a href="${(subcatlog.url?trim)}"
+																		title="${subcatlog.displayName}"> View all </a>
+																<#else>
+																	<a href="${(siteView.host+"/c/"+subcatlog.name)}"
+																		title="${subcatlog.displayName}"> View all </a>
+																</#if>
+															</dd>
+													</#if>
+												</dl>
+											</#if>
+										</#list>
+								</div>
+								<#assign spExist = false>
+								<#list catlog.subCategories as subcatlog>
+									<#if (subcatlog.specialOffer && subcatlog.enable)>
+										<#assign url = (subcatlog.specialOfferImage.noChangeUrl)!'' >
+										<#if ((url?length) > 1)>
+											<#assign sp = subcatlog >
+											<#assign spExist = true>
+											<#break>
+										</#if>
+									</#if>	
+								</#list>
+								<#if !spExist>
+									<#list catlog.subCategories as subcatlog>
+										<#list subcatlog.subCategories as sb2>
+											<#assign url = (sb2.specialOfferImage.noChangeUrl)!'' >
+											<#if ((url?length) > 1)>
+												<#assign sp = sb2>
+												<#assign  spExist = true>
+												<#break>
+											</#if>
+										</#list>
+									</#list>
+								</#if>
+								<#if spExist>
+								<div class="inner_box_along">
+									<dl>
+										<#list catlog.subCategories as subcatlog>
+											<#if (subcatlog.specialOffer && subcatlog.enable)>
+												<dt>
+													<#if subcatlog.url?trim != "">
+														<a href="${(subcatlog.url?trim)}"
+															title="${subcatlog.displayName}">${subcatlog.displayName}</a>
+													<#else>
+														<a href="${(siteView.host+"/c/"+subcatlog.name)}"
+															title="${subcatlog.displayName}">${subcatlog.displayName}</a>
+													</#if>
+												</dt>
+											</#if>	
+											<#list subcatlog.subCategories as subsubcatlog>
+												<#if (subsubcatlog.specialOffer && subsubcatlog.enable)>
+												<dt>
+													<#if subsubcatlog.url?trim != "">
+														<a href="${(subsubcatlog.url?trim)}"
+															title="${subsubcatlog.displayName}"> ${subsubcatlog.displayName}
+														</a>
+													<#else>
+														<a href="${(siteView.host+"/c/"+subsubcatlog.name)}"
+															title="${subsubcatlog.displayName}"> ${subsubcatlog.displayName}
+														</a>
+													</#if>
+												</dt>
+											</#if>	
+											</#list>										
+										</#list>
+									</dl>
+									<div style="clear: both;"></div>
+									<div class="topNavClassAdWrapper">
+									
+										<div class=" SpecialboxShadow topNavAdSpecialOffer">
+											<span class="topNavAdSpecialOffertxt Specialtextshadow ">Special offer</span>
+										</div>
+										<ul class="topNavClassAd">
+											
+											<#if sp ??>
+													<li><a href="${siteView.host}/c/${sp.name}"
+															title="${sp.displayName}"> <img width="174"
+																border="0" height="84"
+																src="http://joybuy.co.uk/${sp.specialOfferImage.noChangeUrl}">
+														</a></li>
+											</#if>
+										</ul>
+									</div>
+								</div>
+							</#if>
+						</div>
+					</#if>
+				</li>
+			</#if>
+		</#list>
+	</ul>
+</div>

@@ -1,0 +1,38 @@
+<div class="home-big-ad" id="home-big-ad">
+	<div class="measure_dashboard">
+		<div class="measure_dashboard_content">
+			<div class="measure_panel" style="display: none;">
+				<a href="/c/Wedding-Dresses-UK"><img width="972px" height="428px" src="/image/Homebanner/joybuy-banner_6.jpg" alt="Wedding Dresses" title="Wedding Dresses"></a>
+			</div>
+			<div class="measure_panel" style="position:relative">
+				<a href="/c/Prom-Dresses-UK"><img alt="Prom Dresses 2013" title="Prom Dresses 2013" width="972px" height="428px" src="/image/Homebanner/joybuy-banner_10.jpg"></a>
+			</div>
+			<div class="measure_panel">
+				<a href="/c/Prom-Dresses-UK"><img alt="Prom Dresses 2013" title="Prom Dresses 2013"  width="972px" height="428px" src="/image/Homebanner/home_banner_2.jpg"></a>
+			</div>
+			<div class="measure_panel" style="position:relative">
+				<a href="/c/Cocktail-Dresses-UK"><img alt="Prom Dresses" title="Prom Dresses"  width="972px" height="428px" src="/image/Homebanner/joybuy-banner11.jpg"></a>	
+			</div>
+			<div class="measure_panel">
+				<a href="/c/Wedding-Shoes"><img alt="Wedding Shoes" title="Wedding Shoes"  width="972px" height="428px" src="/image/Homebanner/joybuy-banner_9.jpg"></a>
+			</div>
+			<div class="measure_panel">
+				<a href="/c/Suits"><img alt="PSuits3" title="Suits"  width="972px" height="428px" src="/image/Homebanner/joybuy-banner_8.jpg"></a>
+			</div>
+		<p class="clearBoth"></p>
+		</div>
+		<div class="measure_navigation">
+			<div class="measure_controller">
+	            <img class="pagination_active_m" src="/style/image/1x1.png" title="1">
+				<img class="pagination_m" src="/style/image/1x1.png" title="2">
+				<img class="pagination_m" src="/style/image/1x1.png" title="3">
+				<img class="pagination_m" src="/style/image/1x1.png" title="4">
+				<img class="pagination_m" src="/style/image/1x1.png" title="5">
+				<img class="pagination_m" src="/style/image/1x1.png" title="6">
+			</div>
+		</div>
+	</div>
+	<script>
+		var slider = jq(".measure_dashboard").slider().cycle();
+	</script>
+</div>
