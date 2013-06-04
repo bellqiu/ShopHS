@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<project name="Foo" default="build" basedir=".">
+<project name="Foo" default="build" basedir="." >
   <!-- Configure path to GWT SDK -->
-  <property name="gwt.sdk" location="C:/Workspace/IDE/gwt/gwt-2.4.0" />
+ <property environment="env"></property>
+  <property name="gwt.sdk" location="${env.GWT_HOME}/gwt" />
 
   <path id="project.class.path">
     <pathelement location="war/WEB-INF/classes"/>
