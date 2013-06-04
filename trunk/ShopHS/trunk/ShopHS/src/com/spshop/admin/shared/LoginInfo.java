@@ -3,17 +3,17 @@ package com.spshop.admin.shared;
 import java.io.Serializable;
 import java.util.Map;
 
+import com.google.gwt.user.client.rpc.IsSerializable;
 import com.spshop.model.Country;
 import com.spshop.model.Site;
 import com.spshop.model.User;
 
-public class LoginInfo implements Serializable{
+public class LoginInfo implements Serializable, IsSerializable{
 
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 3625917903138127254L;
-	
+	private static final long serialVersionUID = 1L;
 	private Site site;
 	private String userID;
 	private Map<String, Country> countryMap;

@@ -19,7 +19,7 @@ import com.spshop.model.TabProduct;
 import com.spshop.model.TabSelling;
 import com.spshop.model.query.QueryCriteria;
 import com.spshop.model.query.QueryResult;
-@RemoteServiceRelativePath("admin")
+@RemoteServiceRelativePath("../w/admin")
 public interface AdminService  extends RemoteService{
 	QueryResult<Component> query(QueryCriteria criteria) throws IllegalArgumentException;
 	LoginInfo getLoginInfo()throws IllegalArgumentException;

@@ -5,10 +5,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.google.gwt.user.client.rpc.IsSerializable;
 import com.spshop.model.Site;
 
 
-public class QueryCriteria implements Serializable{
+public class QueryCriteria implements Serializable, IsSerializable{
 	
 	/**
 	 * 

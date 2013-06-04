@@ -4,10 +4,11 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.gwt.user.client.rpc.IsSerializable;
 import com.spshop.model.Component;
 
 
-public class QueryResult <T extends Component> implements Cloneable, Serializable{
+public class QueryResult <T extends Component> implements Cloneable, Serializable,IsSerializable{
 	/**
 	 * 
 	 */

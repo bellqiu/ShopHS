@@ -3,7 +3,9 @@ package com.spshop.model;
 import java.io.Serializable;
 import java.util.Date;
 
-public  abstract class Component implements Serializable,Cloneable{
+import com.google.gwt.user.client.rpc.IsSerializable;
+
+public  abstract class Component implements Serializable,Cloneable, IsSerializable{
 	public static final String EXPIRED="Y";
 	public static final String NOT_EXPIRED="N";
 	/**
