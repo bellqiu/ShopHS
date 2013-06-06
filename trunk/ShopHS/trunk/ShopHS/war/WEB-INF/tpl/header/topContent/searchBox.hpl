@@ -1,6 +1,6 @@
 <div class="search_box">
 	<input type="hidden" value="0" name="class"> <input type="text"
-		autocomplete="off" class="search_text font_size11 Light_gray" id="top_search_box" value=""
+		autocomplete="off" class="search_text font_size11 Light_gray" id="top_search_box" value="${(setting.test)!''}"
 		id="textfield0" name="textfield"> <input type="button" name="" class="search_button">
 </div>
 

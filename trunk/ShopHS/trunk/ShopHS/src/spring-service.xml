@@ -208,4 +208,10 @@
 		<property name="target" ref="com.spshop.service.intf.AddressService.target" />
 	</bean>
 	
+	<bean id="com.spshop.service.intf.SettingService.target" class="com.spshop.service.impl.SettingServiceImpl">
+	</bean>
+	
+	<bean id="com.spshop.service.intf.SettingService" parent="transactionBase">
+		<property name="target" ref="com.spshop.service.intf.SettingService.target" />
+	</bean>
 </beans>

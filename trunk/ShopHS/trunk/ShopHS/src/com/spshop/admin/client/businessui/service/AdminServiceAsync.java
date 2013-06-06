@@ -4,6 +4,9 @@ import java.util.List;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.spshop.admin.shared.LoginInfo;
+import com.spshop.admin.shared.PagingAndSortingInfo;
+import com.spshop.dto.SettingDTO;
+import com.spshop.dto.SettingSummaryDTO;
 import com.spshop.exception.ServiceValidateException;
 import com.spshop.model.Category;
 import com.spshop.model.Component;
@@ -66,4 +69,17 @@ public interface AdminServiceAsync {
 	void replyMessage(Message parent, Message message, AsyncCallback<Message> callback);
 	
 	void queryOrdersByUserId(long userId, AsyncCallback<List<Order>> callback);
+
+	void getSettings(PagingAndSortingInfo pagingAndSortingInfo,
+			AsyncCallback<List<SettingSummaryDTO>> callback);
+
+	void countSettings(AsyncCallback<Long> callback);
+
+	void getAllSettings(AsyncCallback<List<SettingDTO>> callback);
+
+	void bySettingDTOID(long id, AsyncCallback<SettingDTO> callback);
+
+	void saveSettingDTO(SettingDTO settingDTO,
+			AsyncCallback<SettingDTO> callback);
+	
 }

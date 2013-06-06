@@ -7,6 +7,7 @@ import java.util.List;
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.Element;
 
+import com.spshop.dto.SettingDTO;
 import com.spshop.model.Category;
 import com.spshop.model.Country;
 import com.spshop.model.HTML;
@@ -22,6 +23,7 @@ import com.spshop.service.intf.CountryService;
 import com.spshop.service.intf.HTMLService;
 import com.spshop.service.intf.OrderService;
 import com.spshop.service.intf.ProductService;
+import com.spshop.service.intf.SettingService;
 import com.spshop.service.intf.SiteService;
 import com.spshop.service.intf.TabProductService;
 import com.spshop.service.intf.TabSellingService;
@@ -78,6 +80,10 @@ public class SCacheFacade{
 	
 	public static SCache getTagsProductCache(){
 		return cacheManager.getSCache(TAGS_PRODUCT_CACHE);
+	}
+	
+	public static SCache getSettingCache(){
+		return cacheManager.getSCache("setting");
 	}
 
 	public static Order getOrder(String userEmail) {
@@ -275,6 +281,16 @@ public class SCacheFacade{
 		}
 		
 		return products;
+	}
+	
+	public static List<SettingDTO> getSettings(){
+		List<SettingDTO> settings = (List<SettingDTO>) getSettingCache().get("setting");
+		if(null == settings){
+			settings = ServiceFactory.getService(SettingService.class).getAllSettings();
+			getSettingCache().put("setting", settings);
+		}
+		
+		return settings;
 	}
 	
 }

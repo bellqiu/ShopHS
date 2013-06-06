@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.spshop.admin.client.businessui.service.AdminService;
 import com.spshop.admin.shared.LoginInfo;
+import com.spshop.admin.shared.PagingAndSortingInfo;
+import com.spshop.dto.SettingDTO;
+import com.spshop.dto.SettingSummaryDTO;
 import com.spshop.exception.ServiceValidateException;
 import com.spshop.model.Category;
 import com.spshop.model.Component;
@@ -30,6 +33,7 @@ import com.spshop.service.intf.ImageService;
 import com.spshop.service.intf.MessageService;
 import com.spshop.service.intf.OrderService;
 import com.spshop.service.intf.ProductService;
+import com.spshop.service.intf.SettingService;
 import com.spshop.service.intf.SiteService;
 import com.spshop.service.intf.TabProductService;
 import com.spshop.service.intf.TabSellingService;
@@ -185,10 +189,37 @@ public class AdminController extends BaseGWTController implements AdminService{
     public List<Order> queryOrdersByUserId(long userId) {
         return ServiceFactory.getService(OrderService.class).getOrdersByUserId(userId);
     }
+    
+    @Override
+	public List<SettingSummaryDTO> getSettings(
+			PagingAndSortingInfo pagingAndSortingInfo) {
+		return ServiceFactory.getService(SettingService.class).getSettings(pagingAndSortingInfo);
+	}
 
 	@Override
 	protected RemoteService getService() {
 		return this;
 	}
+
+	@Override
+	public long countSettings() {
+		return ServiceFactory.getService(SettingService.class).countSettings();
+	}
+
+	@Override
+	public List<SettingDTO> getAllSettings() {
+		return ServiceFactory.getService(SettingService.class).getAllSettings();
+	}
+
+	@Override
+	public SettingDTO saveSettingDTO(SettingDTO settingDTO) {
+		return ServiceFactory.getService(SettingService.class).save(settingDTO);
+	}
+
+	@Override
+	public SettingDTO bySettingDTOID(long id) {
+		return ServiceFactory.getService(SettingService.class).byID(id);
+	}
+
 
 }

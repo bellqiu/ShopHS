@@ -5,6 +5,9 @@ import java.util.List;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 import com.spshop.admin.shared.LoginInfo;
+import com.spshop.admin.shared.PagingAndSortingInfo;
+import com.spshop.dto.SettingDTO;
+import com.spshop.dto.SettingSummaryDTO;
 import com.spshop.exception.ServiceValidateException;
 import com.spshop.model.Category;
 import com.spshop.model.Component;
@@ -44,5 +47,11 @@ public interface AdminService  extends RemoteService{
 	QueryResult<Component> queryByHQL(String hql, List<Object> params, String className) throws IllegalArgumentException;
 	Message replyMessage(Message parent, Message message);
 	List<Order> queryOrdersByUserId(long userId);
+	List<SettingSummaryDTO> getSettings(PagingAndSortingInfo pagingAndSortingInfo);
+	
+	long countSettings();
+	List<SettingDTO> getAllSettings();
+	SettingDTO saveSettingDTO(SettingDTO settingDTO);
+	SettingDTO bySettingDTOID(long id);
 }
 

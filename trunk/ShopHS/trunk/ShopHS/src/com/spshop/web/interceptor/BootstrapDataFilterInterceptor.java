@@ -24,6 +24,7 @@ import org.apache.log4j.Logger;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import com.spshop.cache.SCacheFacade;
+import com.spshop.dto.SettingDTO;
 import com.spshop.model.Category;
 import com.spshop.model.Country;
 import com.spshop.model.Order;
@@ -54,6 +55,7 @@ public class BootstrapDataFilterInterceptor extends HandlerInterceptorAdapter{
 	protected static Map<String, Float>  currencies;
 	protected static Map<String, String> crossSales = new TreeMap<String, String>();
 	public static SiteView siteView;
+	private static Map<String, String> setting = new HashMap<String,String>();
 	
 	public BootstrapDataFilterInterceptor() {
 		Properties cp = new Properties();
@@ -81,13 +83,32 @@ public class BootstrapDataFilterInterceptor extends HandlerInterceptorAdapter{
 		}
 		
 		siteView = initSiteView();
+		
+		setting = initSetting();
 			
 	}
 	
 
+	private Map<String, String> initSetting() {
+		Map<String, String> setting= new HashMap<String, String>();
+		
+		List<SettingDTO> dtos = SCacheFacade.getSettings();
+		
+		if(null != dtos){
+			for (SettingDTO dto : dtos) {
+				setting.put(dto.getKey(), dto.getValue());
+			}
+		}
+		
+		return setting;
+	}
+
+
 	@Override
 	public boolean preHandle(HttpServletRequest request,
 			HttpServletResponse response, Object handler) throws Exception {
+		
+		setting=initSetting();
 		
 		UserView userView = new UserView();
 		
@@ -107,6 +128,7 @@ public class BootstrapDataFilterInterceptor extends HandlerInterceptorAdapter{
 		
 		request.getSession().setAttribute(SHOPPINGCART, userView.getCart());
 		request.getSession().getServletContext().setAttribute(CURRENCY, userView.getCurrencyCode());
+		request.getSession().getServletContext().setAttribute("setting", setting);
 		
 		
 		HomeView homeView = (HomeView) request.getSession().getServletContext().getAttribute(Constants.HOME_VIEW);

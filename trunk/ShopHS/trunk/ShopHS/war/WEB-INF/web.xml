@@ -26,10 +26,6 @@
 	</servlet>
 	<!-- Servlets -->
 	<servlet>
-		<servlet-name>queryService</servlet-name>
-		<servlet-class>com.spshop.admin.server.AdminServiceImpl</servlet-class>
-	</servlet>
-	<servlet>
 		<servlet-name>initServlet</servlet-name>
 		<servlet-class> com.spshop.admin.server.InitCacheService</servlet-class>
 		<load-on-startup>0</load-on-startup>
@@ -54,10 +50,6 @@
 		<url-pattern>/admin</url-pattern>
 	</servlet-mapping>
 
-	<servlet-mapping>
-		<servlet-name>queryService</servlet-name>
-		<url-pattern>/workspace/admin</url-pattern>
-	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>ImageCreate</servlet-name>
 		<url-pattern>/workspace/imageUpload</url-pattern>

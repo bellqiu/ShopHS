@@ -1,0 +1,11 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="600" height="900">
+		<g:VerticalPanel ui:field="cell"/>
+		<g:VerticalPanel ui:field="footer"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

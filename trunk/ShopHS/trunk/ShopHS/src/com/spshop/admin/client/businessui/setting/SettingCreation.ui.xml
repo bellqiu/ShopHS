@@ -1,0 +1,33 @@
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:p1="urn:import:com.spshop.admin.client.rich"
+	>
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:Grid>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Key"/>
+				</g:customCell>
+				<g:customCell>
+					<g:TextBox ui:field="key"/>
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Label text="Value"/>
+				</g:customCell>
+				<g:customCell>
+					<g:TextArea ui:field="value"/>
+				</g:customCell>
+			</g:row>
+			<g:row>
+				<g:customCell>
+					<g:Button ui:field="save">Save</g:Button>
+				</g:customCell>
+			</g:row>
+		</g:Grid>
+	</g:HTMLPanel>
+</ui:UiBinder> 

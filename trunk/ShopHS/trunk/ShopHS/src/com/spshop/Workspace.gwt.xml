@@ -14,5 +14,6 @@
 	<source path='admin/client/businessui' />
 	<source path='model' />
 	<source path='exception' />
+	<source path='dto' />
 
 </module>
