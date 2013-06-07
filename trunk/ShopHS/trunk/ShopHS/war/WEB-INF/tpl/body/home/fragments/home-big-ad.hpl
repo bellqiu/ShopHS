@@ -3,7 +3,7 @@
 		<div class="measure_dashboard_content">
 			<div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner1_link!'home_banner1_link'}">
-				<img width="972px" height="428px" src="${setting.home_banner1_image!'home_banner1_image'}" alt="${setting.home_banner1_image_Alt'home_banner1_image_Alt'}" title="${setting.home_banner1_image_title!'home_banner1_image_title'}"></a>
+				<img width="972px" height="428px" src="${setting['home_banner1_image']!'home_banner1_image'}" alt="${setting['home_banner1_image_Alt']'home_banner1_image_Alt'}" title="${setting.home_banner1_image_title!'home_banner1_image_title'}"></a>
 			</div>
             <div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner2_link!'home_banner2_link'}">
