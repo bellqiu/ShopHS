@@ -2,22 +2,28 @@
 	<div class="measure_dashboard">
 		<div class="measure_dashboard_content">
 			<div class="measure_panel" style="display: none;">
-				<a href="/c/Wedding-Dresses-UK"><img width="972px" height="428px" src="/image/Homebanner/joybuy-banner_6.jpg" alt="Wedding Dresses" title="Wedding Dresses"></a>
+				<a href="${setting.home_banner1_link!'/c/Wedding-Dresses-UK'}">
+				<img width="972px" height="428px" src="${setting.home_banner1_image!'/image/Homebanner1.jpg'}" alt="${setting.home_banner1_image1_Alt'Wedding Dresses'}" title="${setting.home_banner1_image_title!'Wedding Dresses'}"></a>
 			</div>
-			<div class="measure_panel" style="position:relative">
-				<a href="/c/Prom-Dresses-UK"><img alt="Prom Dresses 2013" title="Prom Dresses 2013" width="972px" height="428px" src="/image/Homebanner/joybuy-banner_10.jpg"></a>
+			<div class="measure_panel" style="display: none;">
+				<a href="${setting.home_banner2_link!'/c/Wedding-Dresses-UK'}">
+				<img width="972px" height="428px" src="${setting.home_banner2_image!'/image/Homebanner2.jpg'}" alt="${setting.home_banner2_image1_Alt'Wedding Dresses'}" title="${setting.home_banner2_image_title!'Wedding Dresses'}"></a>
 			</div>
-			<div class="measure_panel">
-				<a href="/c/Prom-Dresses-UK"><img alt="Prom Dresses 2013" title="Prom Dresses 2013"  width="972px" height="428px" src="/image/Homebanner/home_banner_2.jpg"></a>
+			<div class="measure_panel" style="display: none;">
+				<a href="${setting.home_banner3_link!'/c/Wedding-Dresses-UK'}">
+				<img width="972px" height="428px" src="${setting.home_banner3_image!'/image/Homebanner3.jpg'}" alt="${setting.home_banner3_image1_Alt'Wedding Dresses'}" title="${setting.home_banner3_image_title!'Wedding Dresses'}"></a>
 			</div>
-			<div class="measure_panel" style="position:relative">
-				<a href="/c/Cocktail-Dresses-UK"><img alt="Prom Dresses" title="Prom Dresses"  width="972px" height="428px" src="/image/Homebanner/joybuy-banner11.jpg"></a>	
+			<div class="measure_panel" style="display: none;">
+				<a href="${setting.home_banner4_link!'/c/Wedding-Dresses-UK'}">
+				<img width="972px" height="428px" src="${setting.home_banner4_image!'/image/Homebanner4.jpg'}" alt="${setting.home_banner4_image1_Alt'Wedding Dresses'}" title="${setting.home_banner4_image_title!'Wedding Dresses'}"></a>
 			</div>
-			<div class="measure_panel">
-				<a href="/c/Wedding-Shoes"><img alt="Wedding Shoes" title="Wedding Shoes"  width="972px" height="428px" src="/image/Homebanner/joybuy-banner_9.jpg"></a>
+			<div class="measure_panel" style="display: none;">
+				<a href="${setting.home_banner5_link!'/c/Wedding-Dresses-UK'}">
+				<img width="972px" height="428px" src="${setting.home_banner5_image!'/image/Homebanner5.jpg'}" alt="${setting.home_banner5_image1_Alt'Wedding Dresses'}" title="${setting.home_banner5_image_title!'Wedding Dresses'}"></a>
 			</div>
-			<div class="measure_panel">
-				<a href="/c/Suits"><img alt="PSuits3" title="Suits"  width="972px" height="428px" src="/image/Homebanner/joybuy-banner_8.jpg"></a>
+			<div class="measure_panel" style="display: none;">
+				<a href="${setting.home_banner6_link!'/c/Wedding-Dresses-UK'}">
+				<img width="972px" height="428px" src="${setting.home_banner6_image!'/image/Homebanner6.jpg'}" alt="${setting.home_banner6_image1_Alt'Wedding Dresses'}" title="${setting.home_banner6_image_title!'Wedding Dresses'}"></a>
 			</div>
 		<p class="clearBoth"></p>
 		</div>

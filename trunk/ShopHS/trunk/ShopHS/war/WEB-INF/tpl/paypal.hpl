@@ -1,4 +1,4 @@
-<#assign pageKeywords = "Paypal, Joybuy.co.uk">
+<#assign pageKeywords = "Paypal">
 <#assign pageDescription = "Pay by Paypal">
 <#assign pageTitle = "Pay by Paypal">
 
@@ -9,7 +9,7 @@
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post"
 		id="paypaysubmitForm">
 		<input type="hidden" name="cmd" value="_xclick"> <input
-			type="hidden" name="business" value="pay@joybuy.co.uk"> <input
+			type="hidden" name="business" value="${setting.paypal_account!'xxx@xxx.com'}"> <input
 			type="hidden" name="item_name" value="${defaultOrder.name }">
 		<input type="hidden" name="amount"
 			value='${(userView.currencyRateMap[defaultOrder.currency]*(defaultOrder.totalPrice-defaultOrder.couponCutOff+defaultOrder.dePrice))?string("##0.##")}'>
