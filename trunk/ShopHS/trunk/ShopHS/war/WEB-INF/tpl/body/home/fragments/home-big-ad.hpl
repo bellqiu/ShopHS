@@ -2,28 +2,28 @@
 	<div class="measure_dashboard">
 		<div class="measure_dashboard_content">
 			<div class="measure_panel" style="display: none;">
-				<a href="${setting.home_banner1_link!'/c/Wedding-Dresses-UK'}">
-				<img width="972px" height="428px" src="${setting.home_banner1_image!'/image/Homebanner1.jpg'}" alt="${setting.home_banner1_image1_Alt'Wedding Dresses'}" title="${setting.home_banner1_image_title!'Wedding Dresses'}"></a>
+				<a href="${setting.home_banner1_link!'home_banner1_link'}">
+				<img width="972px" height="428px" src="${setting.home_banner1_image!'home_banner1_image'}" alt="${setting.home_banner1_image_Alt'home_banner1_image_Alt'}" title="${setting.home_banner1_image_title!'home_banner1_image_title'}"></a>
+			</div>
+            <div class="measure_panel" style="display: none;">
+				<a href="${setting.home_banner2_link!'home_banner2_link'}">
+				<img width="972px" height="428px" src="${setting.home_banner2_image!'home_banner2_image'}" alt="${setting.home_banner2_image_Alt'home_banner2_image_Alt'}" title="${setting.home_banner2_image_title!'home_banner2_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
-				<a href="${setting.home_banner2_link!'/c/Wedding-Dresses-UK'}">
-				<img width="972px" height="428px" src="${setting.home_banner2_image!'/image/Homebanner2.jpg'}" alt="${setting.home_banner2_image1_Alt'Wedding Dresses'}" title="${setting.home_banner2_image_title!'Wedding Dresses'}"></a>
+				<a href="${setting.home_banner3_link!'home_banner3_link'}">
+				<img width="972px" height="428px" src="${setting.home_banner3_image!'home_banner3_image'}" alt="${setting.home_banner3_image_Alt'home_banner3_image_Alt'}" title="${setting.home_banner3_image_title!'home_banner3_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
-				<a href="${setting.home_banner3_link!'/c/Wedding-Dresses-UK'}">
-				<img width="972px" height="428px" src="${setting.home_banner3_image!'/image/Homebanner3.jpg'}" alt="${setting.home_banner3_image1_Alt'Wedding Dresses'}" title="${setting.home_banner3_image_title!'Wedding Dresses'}"></a>
+				<a href="${setting.home_banner4_link!'home_banner4_link'}">
+				<img width="972px" height="428px" src="${setting.home_banner4_image!'home_banner4_image'}" alt="${setting.home_banner4_image_Alt'home_banner4_image_Alt'}" title="${setting.home_banner4_image_title!'home_banner4_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
-				<a href="${setting.home_banner4_link!'/c/Wedding-Dresses-UK'}">
-				<img width="972px" height="428px" src="${setting.home_banner4_image!'/image/Homebanner4.jpg'}" alt="${setting.home_banner4_image1_Alt'Wedding Dresses'}" title="${setting.home_banner4_image_title!'Wedding Dresses'}"></a>
+				<a href="${setting.home_banner5_link!'home_banner5_link'}">
+				<img width="972px" height="428px" src="${setting.home_banner5_image!'home_banner5_image'}" alt="${setting.home_banner5_image_Alt'home_banner5_image_Alt'}" title="${setting.home_banner5_image_title!'home_banner5_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
-				<a href="${setting.home_banner5_link!'/c/Wedding-Dresses-UK'}">
-				<img width="972px" height="428px" src="${setting.home_banner5_image!'/image/Homebanner5.jpg'}" alt="${setting.home_banner5_image1_Alt'Wedding Dresses'}" title="${setting.home_banner5_image_title!'Wedding Dresses'}"></a>
-			</div>
-			<div class="measure_panel" style="display: none;">
-				<a href="${setting.home_banner6_link!'/c/Wedding-Dresses-UK'}">
-				<img width="972px" height="428px" src="${setting.home_banner6_image!'/image/Homebanner6.jpg'}" alt="${setting.home_banner6_image1_Alt'Wedding Dresses'}" title="${setting.home_banner6_image_title!'Wedding Dresses'}"></a>
+				<a href="${setting.home_banner6_link!'home_banner6_link'}">
+				<img width="972px" height="428px" src="${setting.home_banner6_image!'home_banner6_image'}" alt="${setting.home_banner6_image_Alt'home_banner6_image_Alt'}" title="${setting.home_banner6_image_title!'home_banner6_image_title'}"></a>
 			</div>
 		<p class="clearBoth"></p>
 		</div>
