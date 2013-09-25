@@ -2,7 +2,7 @@
 	<div class="top_center">
 		<div id="user_menu" class="user_menu">
 			<ul>
-				<li>Help
+				<li class="help">Help
 					<div style="width: 150px;" class="user_menu_hidd">
 						<a class="menuNav" href="http://joybuy.co.uk/uc/helpCenter"
 							rel="nofollow" title="Help Center">Help Center</a>

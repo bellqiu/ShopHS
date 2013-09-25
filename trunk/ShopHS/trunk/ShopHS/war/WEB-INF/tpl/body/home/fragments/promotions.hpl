@@ -31,7 +31,7 @@
 							<img style="width:164px; padding-top: ${hAndPadding[1]?int}px;padding-bottom: ${hAndPadding[1]?int}px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" />
 							</#if>
 							<#if (tabProduct.images[0].strSizeType = "PRODUCT_NORMAL")>
-							<img style="width:164px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" />
+							<img style="width:164px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" title="ÍíÉÏÒª¸Ä"/>
 							</#if>
 						</a>
 					</div>

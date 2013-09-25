@@ -1,5 +1,5 @@
-<#assign pageKeywords = "${setting.yours_pay_title!'setting.yours_pay_title'}">
-<#assign pageDescription = "${setting.yours_pay_desc!'setting.yours_pay_desc'}">
+<#assign pageKeywords = "YoursPay, Joybuy.co.uk">
+<#assign pageDescription = "Pay by YoursPay">
 <#assign pageTitle = "Pay by YoursPay">
 
 <#include "/header/top_clean.hpl">

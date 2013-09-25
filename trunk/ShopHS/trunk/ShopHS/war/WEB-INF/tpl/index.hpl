@@ -1,6 +1,6 @@
-<#assign pageKeywords = '${homeView.category.relatedKeyword!""}'>
+<#assign pageKeywords = '${homeView.category.relatedKeyword!""} '>
 <#assign pageDescription = '${homeView.category.description!""}'>
-<#assign pageTitle = '${homeView.category.pageTitle!""}'>
+<#assign pageTitle = '${homeView.category.pageTitle!""} '>
 <#assign pageBaseURL = '${siteView.host+"/"}'>
 
 <#include "/header/top.hpl">

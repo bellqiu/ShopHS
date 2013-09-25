@@ -177,6 +177,10 @@ input:-webkit-autofill {
 	position: relative;
 }
 
+.user_menu li.help{padding: 2px 29px 2px 10px;
+	background: url("/style/image/arrow_ICON.gif") no-repeat scroll 32px
+		-114px transparent;}
+
 .user_menu li.noChildren {
 	color: #050505;
 	cursor: pointer;
@@ -334,8 +338,9 @@ span.icon_RUB {
 
 /*****************************************************************dockbar***********************************************************************/
 .shopping_cart {
-	background-color: #0a69cf;
-	border: 1px solid #004691;
+	background-color:#f74a97;
+	border: 1px solid #c61d81;
+	width:100px;
 	color: white;
 	height: 25px;
 	position: absolute;
@@ -350,8 +355,8 @@ span.icon_RUB {
 
 .cart_icon {
 	background: url("/style/image/icon_shoppingcart.png") no-repeat scroll
-		4px 4px transparent;
-	padding-left: 30px;
+		8px 4px transparent;
+	padding-left: 33px;
 	display: block;
 	line-height: 25px;
 }
@@ -414,21 +419,20 @@ span.icon_RUB {
 /*****************************************************************overlay cart***********************************************************************/
 .top_box {
 	height: 100px;
-	margin: 27px auto 5px;
+	margin: 19px auto 5px;
 	position: relative;
 	width: 972px;
 	z-index: 300;
 }
 
 .top_box {
-	background: none repeat scroll 0 0 #FFFFFF;
+	background: url("/style/image/header-bg-1.jpg") no-repeat scroll 150px 26px #FFFFFF;
 }
 
 .logo_box {
-	left: 0;
 	padding-left: 5px;
-	position: absolute;
-	top: 0;
+	float: left;
+	margin:10px 0 0;
 }
 
 .logo_box img {
@@ -436,16 +440,15 @@ span.icon_RUB {
 }
 
 .security {
-	position: absolute;
-	right: 0;
-	top: 20px;
 	width: 380px;
+	float:left;
 	height: 50px;
 }
 
 .security a {
 	display: block;
     float: left;
+    margin:28px 0 0 75px;
 }
 
 .top_payment {
@@ -466,23 +469,57 @@ span.icon_RUB {
 }
 
 .logo_box img {
-	width: 180px;
+	width: 180px;height:50px;
 }
 
 .search {
-	left: 225px;
-	position: absolute;
-	top: 28px;
+	float:right;
 	z-index: 1;
+	margin:11px 10px 0 0;
+	position: relative;
+}
+
+.search .google{
+	padding-left:22px;
+	height: 22px;
+	display:block;
+}
+
+.search .google a,.search .google span{
+	float: left;
+} 
+
+.search .google span{
+	height: 22px;
+	line-height: 22px;
+	display:inline-block;
+	overflow:hidden;
+	color:#857d80;
+}
+
+.search .hot{
+	margin:-20px 0 0;
+	padding-left: 20px;
+}
+
+.search .hot a:hover{
+	color:#00c6ff;
+}
+
+.search .hot a{
+	font-size: 12px;
+	color:#e9257c;
+	margin-right:5px;
+	font-family: "Arial";
 }
 
 .search_box {
-	background: url("/style/image/search_box.gif") no-repeat scroll 0 0
-		transparent;
-	height: 32px;
+	background: url("/style/image/heade_r2_c12.jpg") 0 0;
+	height: 29px;
 	position: relative;
-	width: 307px;
-	margin-top: 15px;
+	display:block;
+	width: 262px;
+	margin-top: 22px;
 }
 
 .search_box .search_text {
@@ -521,9 +558,9 @@ span.icon_RUB {
 	height: 32px;
 	left: 0;
 	position: absolute;
-	top: 70px;
+	top: 86px;
 	width: 972px;
-	background: url("/style/image/mainmenu_bg.gif") repeat-x scroll 0 0;
+	background: url("/style/image/nav_bg_pick.jpg") repeat-x scroll 0 0;
 }
 
 .main_menu ul li {
@@ -545,9 +582,7 @@ color: #FF5A00;
 .main_menu ul li span:nth-of-type(1){padding:0 14px 2px; }
 .main_menu ul li span {
 	display: block;
-	padding: 0 14.2px;
-	background: url("/style/image/menu.png") no-repeat scroll right
-		transparent;
+	padding: 0 14px;
 }
 
 .main_menu ul li span a {
@@ -557,14 +592,14 @@ color: #FF5A00;
 .sub_menu {
 	display: none;
 	background: none repeat scroll 0 0 #FFFFFF;
-	border-color: #111111;
+	border-color: #F17396;
 	border-style: solid;
 	border-width: 4px 3px 3px;
 	padding: 10px 18px;
 	position: absolute;
-	top: 28px;
+	top: 32px;
 	width: 565px;
-	box-shadow: 1px 3px 4px #555555;
+	box-shadow: 1px 3px 4px rgba(85, 85, 85, 0.33);
 }
 
 .sub_menu .inner_boxA {
@@ -643,7 +678,7 @@ color: #FF5A00;
 }
 /******************************************************************catalog****************************************************************************/
 .main_box {
-	margin: 0 auto;
+	margin:23px auto 0;
 	position: relative;
 	width: 972px;
 }
@@ -1919,31 +1954,106 @@ li.scart_c_w_r {
 
 #home-big-ad .measure_dashboard_content {
 	background: none;
-	border: none;
 	float: none;
 	left: auto;
 	position: relative;
 	top: auto;
 	z-index: 8;
-	height: 428px;
+	height: 410px;
 	overflow: hidden;
 	position: relative;
-	width: 972px;
+	width: 710px;
 }
 
 #home-big-ad .measure_panel {
-	height: 428px;
+	height: 410px;
 	overflow: hidden;
 	position: relative;
-	width: 972px;
+	width: 710px;
 	padding: 0px;
+}
+#home-big-ad .measure_right_link{
+	border: 1px solid #d4d4d4;
+	height: 410px;
+	float:left;
+	margin-left:10px;
+	width:248px;
+	overflow:hidden;
+}
+
+#home-big-ad .measure_right_link .like_us{
+	height:61px;
+	padding:10px 0 0 10px;
+	border-bottom:1px solid #d4d4d4;
+	width:238px;
+}
+
+.measure_right_link .like_us .us{
+	float:left;
+}
+
+#home-big-ad .measure_right_link .like_us p a{
+	font-weight: bold;
+	overflow:hidden;
+	color:#f74a97;
+	display: block;
+	margin:6px 0 4px;;
+	padding: 0;
+}
+
+.measure_right_link .like_us p span{
+	position: absolute;
+	top:30px;
+	left:60px;
+}
+
+.measure_right_link .like_us p{
+	float:left;
+	width:150px;
+	height:50px;
+	margin-left: 6px;
+	position: relative;
+} 
+
+.measure_right_link .hot_sale{
+	padding: 12px 0 0;
+}
+
+.measure_right_link .hot_sale li {
+    color: #555555;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 0 0 14px 15px;
+}
+
+.measure_right_link .hot_sale li a {
+    background: url("/style/image/ss.gif") no-repeat scroll right -489px transparent;
+    color: #000000;
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0 18px 0 0;
+    text-decoration: none;
+}
+
+.measure_right_link .hot_sale_link li{
+	background:url("/style/image/ss.gif") no-repeat scroll 18px -491px transparent;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 0 0 15px;
+    text-transform: uppercase;
+}
+
+.measure_right_link .hot_sale_link li a{
+	padding-left:18px; 
 }
 
 #home-big-ad .measure_dashboard {
-	height: 428px;
+	border: 1px solid #d4d4d4;
+	width: 710px;
 	overflow: hidden;
 	position: relative;
-	width: 972px;
+	height: 410px;
+	float:left;
 }
 
 #home-big-ad .measure_navigation .measure_controller {
@@ -1952,10 +2062,10 @@ li.scart_c_w_r {
 }
 
 #home-big-ad .measure_navigation {
-	left: 0;
+	left: -10px;
 	position: relative;
 	text-align: center;
-	top: -20px;
+	top: -25px;
 	z-index: 9;
 }
 
@@ -2112,6 +2222,7 @@ li.scart_c_w_r {
 }
 
 .index-tab {
+	width:970px;
 	height: 800px;
 	overflow: hidden;
 }

@@ -1,10 +1,18 @@
 <div class="top_box">
 	<div class="logo_box">
 		<a href='${(siteView.host)!"${pageBaseURL}/"}' title="home" ref="nofollow">
-			<img alt="logo" src="${setting.header_logo!'header_logo'}">
+			<img alt="logo" src="/image/logo.jpg">
 		</a>
 	</div>
+	
+	<div class="security">
+	 	<a title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
+	 	<img alt="Globally Accepted and Purchase Protection -> Test" title="Globally Accepted and Purchase Protection" src="/image/heade_r2_c2.jpg">
+		<script	type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.joybuy.co.uk&amp;size=S&amp;use_flash=YES&amp;use_transparent=YES&amp;lang=en"></script></a>
+	</div>
+	
 	<div class="search">
+		<p class="google"><a><img src="/style/image/heade_r2_c4.jpg"/></a><span>+1024&nbsp;&nbsp;Recommend this on Google</span></p>
 		<form action="" method="get" name="formss" id="formss" onsubmit="">
 			<div class="search_box" style="top:-20px;">
 				<#include "searchBox.hpl">
@@ -12,13 +20,11 @@
 			<div id="top_search_box_rs_div" class="ep_qsearch"
 				style="display: none;">
 				<ul id="top_search_box_rs">
-					<li><a href="javascript:void(0);"><b>A</b>a line wedding dresses</a></li>
+					<li><a href="javascript:void(0);"><b>A</b>katsuki</a></li>
 				</ul>
 			</div>
 		</form>
-	</div>
-	<div class="security">
-	 	
+		<p class="hot"><a>Wedding Dresses</a>&nbsp;<a>Bridesmaid Dresses</a></p>
 	</div>
 	<#include "catalog/categoryMenu.hpl">
 	</div>
