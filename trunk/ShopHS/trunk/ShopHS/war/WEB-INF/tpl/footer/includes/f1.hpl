@@ -1,1 +1,57 @@
-${setting.f1_hpl!'f1_hpl'}
+<div id="bottom" style="border: none;">
+	<div class="footer">
+		<div class="footer_wrapper">
+			<div class="web_footer_block01">
+				<div class="web_footer_text01">
+					<p class="web_footer_text_title">Order & Delivery</p>
+					<p class="web_footer_text">
+						We have partnered with a number of reputable shipping companies including DHL, EMS, UPS and so on. Total Delivery Time = Processing Time + Delivery Time.
+						<span class="aspan">
+							<a hrf="">More</a>
+						</span>
+					</p>
+				</div>
+				<div class="web_footer_text02">
+					<p class="web_footer_text_title">Returns & Refunds</p>
+					<p class="web_footer_text">
+						Your satisfaction is of the utmost importance to us. If you have any questions about ordered items, please contact us within 7 days after received.
+						<span class="aspan">
+							<a hrf="">More</a>
+						</span>
+					</p>
+				</div>
+				<div class="web_footer_text03">
+					<p class="web_footer_text_title">Privacy & Security</p>
+					<p class="web_footer_text">
+						What our privacy and security programs do is to make sure every transaction is 100% secured guaranteed. We aim to make a completely safe shopping environment.
+						<span class="aspan">
+							<a hrf="">More</a>
+						</span>
+					</p>
+				</div>
+			</div>
+			<ul class="footer_customerhelp">
+				<li>
+					<p class="tit">Customer Service</p>
+					<span><a href="" rel="nofollow">About Merle Dress</a> (Why trust us?)</span><span><a href="" rel="nofollow">Contact Us</a></span><span><a href="" rel="nofollow">How To Order</a></span><span><a href="" rel="nofollow">Order Status</a></span>
+				</li>
+				<li>
+					<p class="tit">Information</p>
+					<span><a href="" rel="nofollow">Terms and Conditions</a></span> <span><a href="">Payment Method</a></span> <span><a href="" rel="nofollow">Return Policy</a> / <a href="" rel="nofollow">Privacy Notice</a></span> <span> <a href="" rel="nofollow">FAQs</a>&nbsp; / <a href="" rel="nofollow"> Customs &amp; Import Tax</a></span>
+				</li>
+				<li>
+					<p class="tit">Join</p>
+					<span><a class="facebook" href="" target="_blank">Like us on Facebook</a> - 400K+ Fans</span> <span> <a class="twitter" href="" rel="external nofollow" target="_blank">Follow us on Twitter</a></span> <span> <a class="twitter" href="" rel="external nofollow" target="_blank">Pin us on Pinterest</a></span> <span> <a class="blog" href="" rel="publisher" target="_blank">Share Us on Google+</a> </span>
+				</li>
+				<li>
+					<p class="tit">Others</p>
+					<span><a href="">Merle Dress Location (Address)</a></span> <span><a href="">Women's Fashion Blog</a></span> <span><a href="">Top 10 Prom Dresses</a></span> <span><a href="">Mermaid Wedding Gown Guide</a></span>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<p class="footer_copyright">Copyright &copy; 2012-2013 lovingness.com Email: service@lovingness.com</p>
+			<p class="footer_address">Add: NO.136, Picasso Town, Tangzhen, Pudong,Shanghai, China.</p>
+		</div>
+	</div>
+</div>

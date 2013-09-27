@@ -1,3 +1,84 @@
 @CHARSET "UTF-8";
 
 @IMPORT url("common.css");
+@CHARSET "UTF-8";
+.footer_wrapper{width:972x;margin:0 auto;position:relative;padding-top:10px}
+.web_footer_block01 {
+    background: url("/style/image/footer_block01_bg.gif") repeat-x scroll left bottom #FFFFFF;
+    margin: auto;
+    width: 972px;
+	overflow:hidden;
+}
+.web_footer_block01 .web_footer_text01 {
+    background: url("/style/image/11.gif") no-repeat 20px 0;
+    padding: 0 0 0 12px;
+    width: 300px;
+	float:left;
+	font-size:11px;
+}
+
+.web_footer_block01 .web_footer_text02 {
+    background: url("/style/image/1.gif") no-repeat 20px 0;
+    padding: 0 0 0 12px;
+    width: 302px;
+	float:left;
+	font-size:11px;
+}
+
+.web_footer_block01 .web_footer_text03 {
+    background: url("/style/image/3.gif") no-repeat 20px 0;
+    padding: 0 0 0 12px;
+    width: 307px;
+	float:left;
+	font-size:11px;
+}
+.web_footer_block01 .web_footer_text_title {
+    border-bottom: 1px solid #DADADA;
+    color: #333333;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 0 20px;
+    padding: 25px 0 20px 50px;
+}
+.web_footer_block01 .web_footer_text {
+    color: #555555;
+    padding: 10px 0 12px 20px;
+}
+
+
+.web_footer_block01 .web_footer_text .aspan a {
+    background: url("/style/image/ss.gif") no-repeat scroll -292px -612px transparent;
+    color: #EC008C;
+    font-size: 12px;
+    padding: 0 0 0 18px;
+    text-transform: uppercase;
+	
+}
+.web_footer_block01 .web_footer_text .aspan{float:right;display:block;}
+
+.footer_customerhelp {
+    height: auto;
+    padding: 10px 10px 20px;
+ clear:both;overflow:hidden
+}
+.main-payment {    clear: left;
+    height:50px;margin:0 auto;text-align:center;
+    width: 990px;padding:10px 0}
+..main-payment a {display:inline-block;margin:0 2px}
+.footer_customerhelp li {
+    float: left;
+    height: auto;
+    line-height: 16px;
+    width: 230px;padding:0 5px;
+    margin-left: 8px;
+}
+.footer_customerhelp li .tit {color:#333;font-size:14px;font-weight:bold;margin: 0 0 10px;}
+.footer_customerhelp li span,.footer_wrapper li {
+    display: block;color:#555;padding: 1px 0;
+}
+.footer_customerhelp li span a,.footer_wrapper li a{ font-size: 12px; line-height:1.55;   text-decoration: none;    line-height: 16px;}
+.footer_customerhelp li span a:hover{ text-decoration:underline}
+
+.copyright{width:972px;height: 53px;overflow:hidden;height:auto;text-align:center;width:100%;border-top: 1px solid #ddd;padding:10px 0;position:relative;}
+.copyright p{text-align: center;}
+.copyright .footer_copyright{padding-bottom: 2px;color:#000;}

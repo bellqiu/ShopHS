@@ -1,5 +1,4 @@
 		<#include "includes/f1.hpl">
-		
 		<script type="text/javascript">
 			if( top!=this || (self && self.frameElement && self.frameElement.tagName=="IFRAME")){
 				try{

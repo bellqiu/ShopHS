@@ -6,6 +6,7 @@ Back to top button
 	bottom: 210px;
 	margin-left: 800px;
 }
+
 #back-top a {
 	width: 58px;
 	display: block;
@@ -19,6 +20,7 @@ Back to top button
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 #back-top a:hover {
 	color: #000;
 }
@@ -31,6 +33,7 @@ Scroll to bottom button
 	bottom: 30px;
 	margin-left: 800px;
 }
+
 #scroll-bottom a {
 	width: 58px;
 	display: block;
@@ -44,6 +47,7 @@ Scroll to bottom button
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 #scroll-bottom a:hover {
 	color: #000;
 }
@@ -64,6 +68,7 @@ Scroll to bottom button
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 #back-top a:hover span {
 	background-color: #777;
 }
@@ -74,7 +79,8 @@ Scroll to bottom button
 	height: 58px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url(/style/image/down-arrow.png) no-repeat center center;
+	background: #ddd url(/style/image/down-arrow.png) no-repeat center
+		center;
 	/* rounded corners */
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -84,6 +90,7 @@ Scroll to bottom button
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 #scroll-bottom a:hover span {
 	background-color: #777;
 }
