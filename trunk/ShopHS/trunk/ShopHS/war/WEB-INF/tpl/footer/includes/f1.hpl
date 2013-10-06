@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			<ul class="footer_customerhelp">
-				<li>
+				<li class="footer_customerhelp first">
 					<p class="tit">Customer Service</p>
 					<span><a href="" rel="nofollow">About Merle Dress</a> (Why trust us?)</span><span><a href="" rel="nofollow">Contact Us</a></span><span><a href="" rel="nofollow">How To Order</a></span><span><a href="" rel="nofollow">Order Status</a></span>
 				</li>
