@@ -690,9 +690,51 @@ span.icon_RUB {
 	font-weight: bold;
 	height: 12px;
 }
+/******************************************************************add_time****************************************************************************/
+.web_header_banner{    
+	border-bottom: 1px solid #D4D4D4;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    margin: 10px auto 10px;
+    overflow: hidden;
+    padding: 3px 0;
+    width: 972px;
+}
+.web_header_banner_l, .web_header_banner_m, .web_header_banner_mm{
+    line-height: 25px;
+    text-align: center;
+    width: 280px;
+	  float:left;
+	  border-right: 1px dotted #D4D4D4;
+}
+.web_header_banner_r {   
+    line-height: 28px;
+    text-align: center;
+    width: 210px;
+	float:right;
+	padding-left:30px;
+	background:url(/style/image/clock.jpg) no-repeat 0 2px ;
+}
+.web_header_banner_mm{width:160px;}
+.web_header_banner_l .bspan, .web_header_banner_m .bspan, .web_header_banner_mm .bspan {
+    background: url("/style/image/ss.gif") no-repeat scroll -265px -125px transparent;
+    padding: 0 0 0 44px;
+    text-transform: uppercase;
+		color:#333;
+		font-weight:bold;
+}
+.web_header_banner_mm .bspan{background:none;padding-left:0px;}
+.web_header_banner_m .bspan{background: url("/style/image/ss.gif") no-repeat scroll -265px -150px transparent;}
+.web_header_banner_r .bspan { padding: 0 0 0 44px;}
+.web_header_banner .cspan {
+    color: #EC008C;
+}
+
 /******************************************************************catalog****************************************************************************/
 .main_box {
-	margin: 23px auto 0;
+	margin: 62px auto 0;
 	position: relative;
 	width: 972px;
 }

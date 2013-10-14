@@ -1,6 +1,6 @@
 <div id="main_menu" class="main_menu">
 	<ul>
-		<li><span> <a href="http://joybuy.co.uk/" title="Home">Home</a>
+		<li><span> <a href="http://www.joygown.com/" title="Home">Home</a>
 			</span>
 		</li>
 		<#list siteView.categories as catlog>
@@ -143,5 +143,16 @@
 		</#list>
 	</ul>
 </div>
-<div id="">
+<div class="web_header_banner">
+	<p class="web_header_banner_l"><span class="bspan"><span style="font-size: 12px;">Trusted Merle Dress Store</span></span></p>
+	<p class="web_header_banner_m"><span class="bspan"><span class="spsna"><span class="cspan">Promotion (10.1-10.6)</span></span></span></p>
+	<p class="web_header_banner_mm"><span class="bspan"><span class="spsna"><span class="cspan">FB 400K+ FANS</span></span></span></p>
+	<div class="web_header_banner_r">
+		<div id=promotion_time_left"">
+			<span class="ad_day"></span>
+			<span class="ad_hour"></span>
+			<span class="ad_min"></span>
+			<span class="ad_sec"></span>
+		</div>
+	</div>	
 </div>
