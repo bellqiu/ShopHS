@@ -3,27 +3,27 @@
 		<div class="measure_dashboard_content">
 			<div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner1_link!'home_banner1_link'}">
-				<img width="710px" height="410px" src="/image/homebanner.jpg" alt="${setting['home_banner1_image_Alt']!'home_banner1_image_Alt'}" title="${setting.home_banner1_image_title!'home_banner1_image_title'}"></a>
+				<img width="710px" height="410px" src="/image/mybanner-6.jpg" alt="${setting['home_banner1_image_Alt']!'home_banner1_image_Alt'}" title="${setting.home_banner1_image_title!'home_banner1_image_title'}"></a>
 			</div>
             <div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner2_link!'home_banner2_link'}">
-				<img width="710px" height="410px" src="/image/homebanner1.jpg" alt="${setting.home_banner2_image_Alt!'home_banner2_image_Alt'}" title="${setting.home_banner2_image_title!'home_banner2_image_title'}"></a>
+				<img width="710px" height="410px" src="/image/mybanner-1.jpg" alt="${setting.home_banner2_image_Alt!'home_banner2_image_Alt'}" title="${setting.home_banner2_image_title!'home_banner2_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner3_link!'home_banner3_link'}">
-				<img width="710px" height="410px" src="/image/homebanner2.jpg"" alt="${setting.home_banner3_image_Alt!'home_banner3_image_Alt'}" title="${setting.home_banner3_image_title!'home_banner3_image_title'}"></a>
+				<img width="710px" height="410px" src="/image/mybanner-2.jpg"" alt="${setting.home_banner3_image_Alt!'home_banner3_image_Alt'}" title="${setting.home_banner3_image_title!'home_banner3_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner4_link!'home_banner4_link'}">
-				<img width="710px" height="410px" src="/image/homebanner3.jpg" alt="${setting.home_banner4_image_Alt!'home_banner4_image_Alt'}" title="${setting.home_banner4_image_title!'home_banner4_image_title'}"></a>
+				<img width="710px" height="410px" src="/image/mybanner-3.jpg" alt="${setting.home_banner4_image_Alt!'home_banner4_image_Alt'}" title="${setting.home_banner4_image_title!'home_banner4_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner5_link!'home_banner5_link'}">
-				<img width="710px" height="410px" src="/image/homebanner4.jpg" alt="${setting.home_banner5_image_Alt!'home_banner5_image_Alt'}" title="${setting.home_banner5_image_title!'home_banner5_image_title'}"></a>
+				<img width="710px" height="410px" src="/image/mybanner-4.jpg" alt="${setting.home_banner5_image_Alt!'home_banner5_image_Alt'}" title="${setting.home_banner5_image_title!'home_banner5_image_title'}"></a>
 			</div>
 			<div class="measure_panel" style="display: none;">
 				<a href="${setting.home_banner6_link!'home_banner6_link'}">
-				<img width="710px" height="410px" src="/image/homebanner7.jpg" alt="${setting.home_banner6_image_Alt!'home_banner6_image_Alt'}" title="${setting.home_banner6_image_title!'home_banner6_image_title'}"></a>
+				<img width="710px" height="410px" src="/image/mybanner-5.jpg" alt="${setting.home_banner6_image_Alt!'home_banner6_image_Alt'}" title="${setting.home_banner6_image_title!'home_banner6_image_title'}"></a>
 			</div>
 		<p class="clearBoth"></p>
 		</div>
