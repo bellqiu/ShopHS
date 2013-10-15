@@ -438,8 +438,8 @@ jq("#main_menu").ready(function() {
 		var left = jq(data).offset().left;
 		var width = jq(data).width();
 		var leftMargin = jq("#main_menu").offset().left;
-		if((left - leftMargin)  > 516){
-			jq(data).children(".sub_menu").offset({ left: - (516 - width + 90) });
+		if((left - leftMargin)  > 422){
+			jq(data).children(".sub_menu").offset({ left: - (422 - width + 10) });
 			
 		}else if((left - leftMargin)  > 456){
 			jq(data).children(".sub_menu").offset({ left: - (456 - width + 90) });

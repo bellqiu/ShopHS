@@ -275,7 +275,7 @@ public class Constants {
 
 	public static final String CATEGORIE_VIEW_IN_REQUEST = "CATEGORIE_VIEW_IN_REQUEST";
 	
-	public static final String imageHost = "http://www.joybuy.co.uk";
+	public static final String imageHost = "http://64.120.146.130:8080/";
 	
 	public static final String PAYPAL_ACCOUNT = "pay@joybuy.co.uk";
 }	
