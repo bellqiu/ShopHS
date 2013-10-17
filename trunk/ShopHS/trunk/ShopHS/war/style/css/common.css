@@ -36,8 +36,7 @@ img {
 }
 
 .button_02 {
-	background: url("/style/image/button02_bg.jpg") no-repeat scroll 0 0
-		transparent;
+	background:#F592C9;
 	cursor: pointer;
 	font-size: 13px;
 	font-weight: bold;
@@ -1095,7 +1094,7 @@ ul.scart_c li.scart_thumbnail {
 }
 
 ul.scart_c li.scart_desc {
-	width: 405px;
+	width: 402px;
 }
 
 ul.scart_c li.scart_desc2 {
@@ -1218,8 +1217,6 @@ div.scart_summary {
 }
 
 .scart_header {
-	background: url("/style/image/uc_background.png") repeat scroll 0 0
-		transparent;
 	padding-top: 28px;
 }
 
@@ -3399,7 +3396,7 @@ input.valid,select.valid,texteara.valid {
 		transparent;
 	line-height: 28px;
 	padding: 0px 5px;
-	border: 1px solid ##F173BF;
+	border: 1px solid #F8ABDA;
 	margin-top: 3px;
 }
 
@@ -3417,9 +3414,6 @@ input.valid,select.valid,texteara.valid {
 }
 
 .cart-side h4 {
-	background: url("/style/image/uc_background.png") repeat scroll 0 0
-		transparent;
-	border-bottom: 1px solid #DDDDDD;
 	font-family: Georgia, serif;
 	font-size: 13px;
 	padding: 5px 10px;
