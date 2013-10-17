@@ -88,7 +88,7 @@ href="mailto:service@Joybuy.co.uk">Contact Us</a></strong>.</span></p>
 
 2012 Joybuy.co.uk; Inc. All Rights Reserved. | 
 	<a href="http://joybuy.co.uk/c/Terms-Conditions">Terms of Use </a>| 
-	<a href="http://www.Joybuy.co.uk/c/Privacy-Policy">Privacy Policy </a></span></p>
+	<a href="http://64.120.146.130:8080/c/Privacy-Policy">Privacy Policy </a></span></p>
     </td>
    </tr>
  </tbody></table>

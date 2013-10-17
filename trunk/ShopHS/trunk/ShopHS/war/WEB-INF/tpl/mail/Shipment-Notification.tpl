@@ -80,7 +80,7 @@ zzzz")} </#if></td><td width="22"> </td> </tr> </tbody> </table>
                     <td width="15"> </td>
                       <td width="80" align="left"> <strong style="COLOR: #000">Tracking</strong> </td>
 						<td width="170" align="left">
-                      <strong><a href="http://www.joybuy.co.uk/uc/orderDetails?id=${order.name}">My Order</a></strong>
+                      <strong><a href="http://64.120.146.130:8080/uc/orderDetails?id=${order.name}">My Order</a></strong>
                     </td></tr> </tbody> </table> </td></tr>
               <tr>
                 <td height="15"> </td> </tr> </tbody> </table>  
@@ -110,7 +110,7 @@ HEIGHT: 18px">
                       <td height="6"> </td> </tr>
                     <tr align="left">
                       <td width="22"> </td>
-                      <td width="594"> <a href="http://www.joybuy.co.uk/${item.product.name}" 
+                      <td width="594"> <a href="http://64.120.146.130:8080/${item.product.name}" 
 
 style="color:#1E4E8E;text-decoration:none;text-underline:none">${item.product.title}</a></td>
                       <td width="82" align="center">${item.quantity}</td> </tr>
@@ -156,7 +156,7 @@ package?</strong> </p>
 
 above and in your <a 
 
-href="http://www.joybuy.co.uk/uc/orderDetails?id=${order.name}" style="COLOR: #1e4e8e; TEXT-DECORATION: none" 
+href="http://64.120.146.130:8080/uc/orderDetails?id=${order.name}" style="COLOR: #1e4e8e; TEXT-DECORATION: none" 
 
 target="_blank">My Order</a>. Some carriers may not provide tracking 
                   information. If you ordered multiple items, you may receive 
@@ -164,7 +164,7 @@ target="_blank">My Order</a>. Some carriers may not provide tracking
                   <p style="LINE-HEIGHT: 14px; MARGIN: 10px 0px">For details 
                   regarding processing and delivery times, please see <a 
 
-href="http://www.joybuy.co.uk/uc/helpCenter/more-2" style="COLOR: #1e4e8e; TEXT-DECORATION: none" 
+href="http://64.120.146.130:8080/uc/helpCenter/more-2" style="COLOR: #1e4e8e; TEXT-DECORATION: none" 
 
 target="_blank">Shipping Information</a>.</p>
                   <p style="LINE-HEIGHT: 14px; MARGIN: 10px 0px">If you are not 
@@ -172,11 +172,11 @@ target="_blank">Shipping Information</a>.</p>
                   your item(s) by contacting Customer Service within 7 days of 
                   receiving your package. For more information, visit our <a 
 
-href="http://www.joybuy.co.uk/uc/helpCenter/more-4" style="COLOR: #1e4e8e; TEXT-DECORATION: none" 
+href="http://64.120.146.130:8080/uc/helpCenter/more-4" style="COLOR: #1e4e8e; TEXT-DECORATION: none" 
 
 target="_blank">Return Exchange</a> policy.</p>
                   <p style="LINE-HEIGHT: 14px; MARGIN: 10px 0px">For all other 
-                  questions, visit our <a href="http://www.joybuy.co.uk/uc/helpCenter/hcIndex" style="COLOR: #1e4e8e; 
+                  questions, visit our <a href="http://64.120.146.130:8080/uc/helpCenter/hcIndex" style="COLOR: #1e4e8e; 
 
 TEXT-DECORATION: 
 
@@ -201,7 +201,7 @@ damaged during  delivery?</strong> </p>
                   <p style="LINE-HEIGHT: 14px; MARGIN: 10px 0px"> <strong style="COLOR: #444">How can I contact 
 customer  service?</strong> </p>
                   <p style="LINE-HEIGHT: 14px; MARGIN: 10px 0px">For help with 
-                  any order, just log in to <a href="http://www.joybuy.co.uk/uc/orderDetails?id=${order.name}" 
+                  any order, just log in to <a href="http://64.120.146.130:8080/uc/orderDetails?id=${order.name}" 
 style="COLOR: #1e4e8e; TEXT-DECORATION: none" target="_blank">My Order</a> and click on the order you need help 
 with.Through the 
                   order details page, you can easily check order status and 
@@ -238,7 +238,7 @@ cooperation!</td>
 
 Inc. All Rights Reserved. | <a href="http://joybuy.co.uk/c/Terms-Conditions">Terms of Use </a>| <a 
 
-href="http://www.joybuy.co.uk/c/Privacy-Policy">Privacy Policy </td>
+href="http://64.120.146.130:8080/c/Privacy-Policy">Privacy Policy </td>
           <td width="22"> </td> </tr>
         <tr>
           </tr></tbody></table></td></tr></tbody></table>

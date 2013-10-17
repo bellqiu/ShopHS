@@ -102,7 +102,7 @@ cellspacing:0in;border:none;
       margin-left:0in;line-height:13.5pt;paading: 0"><span style="font-size:
       11.0pt">If you have already completed your payment, you should receive a
       "Payment Confirmation" email within 1 working day and at that
-      time, we will begin to process <a href="http://www.Joybuy.co.uk/uc/orderDetails?id=${order.name}">your 
+      time, we will begin to process <a href="http://64.120.146.130:8080/uc/orderDetails?id=${order.name}">your 
 
 order</a>.<o:p></o:p></span></p>
    
@@ -332,7 +332,7 @@ class="MsoNormal">&nbsp;</p></td>
         <td width="399" style="width:299.25pt;padding:0in 0in 0in 0in">
         <p class="MsoNormal" style="margin:0in;margin-bottom:.0001pt"><span style="font-size:9.0pt;mso-fareast-font-
 
-family:&quot;Times New Roman&quot;"><a href="http://www.Joybuy.co.uk/${item.product.name}"><span 
+family:&quot;Times New Roman&quot;"><a href="http://64.120.146.130:8080/${item.product.name}"><span 
 
 style="color:#1E4E8E;text-decoration:none;text-underline:none">
 		${item.product.title}
@@ -545,7 +545,7 @@ class="MsoNormal">&nbsp;</p></td>
     text-align:center"><span style="font-size:9.0pt;mso-fareast-font-family:
     &quot;Times New Roman&quot;;color:#646464">Copyright&copy; 2012 Joybuy.co.uk; Inc. All
     Rights Reserved. | <a href="http://joybuy.co.uk/c/Terms-Conditions">Terms
-    of Use </a>| <a href="http://www.Joybuy.co.uk/c/Privacy-Policy">Privacy
+    of Use </a>| <a href="http://64.120.146.130:8080/c/Privacy-Policy">Privacy
     Policy </a><o:p></o:p></span></p>
     </td>
     <td width="22" style="width:16.5pt;padding:0in 0in 0in 0in;height:15.0pt"></td>

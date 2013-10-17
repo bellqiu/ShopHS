@@ -484,12 +484,18 @@ span.icon_RUB {
 }
 
 .search {
-	float: right;
+	float: left;
 	z-index: 1;
-	margin: 11px 10px 0 0;
+	margin: 11px 37px 0 58px;
 	position: relative;
 }
-
+.approve {
+	float: left;
+	z-index: 1;
+	position: relative;
+	margin: 5px 0 55px;
+}
+.approve img{padding-top:10px;}
 .search .google {
 	padding-left: 22px;
 	height: 22px;
@@ -691,15 +697,16 @@ span.icon_RUB {
 }
 /******************************************************************add_time****************************************************************************/
 .web_header_banner{    
-	border-bottom: 1px solid #D4D4D4;
     font-family: "Times New Roman",Times,serif;
     font-size: 16px;
     font-weight: bold;
     height: 30px;
-    margin: 10px auto 10px;
+    margin: 0 auto 10px;
     overflow: hidden;
-    padding: 3px 0;
     width: 972px;
+    position: absolute;
+	top: 127px;
+	z-index: -1;
 }
 .web_header_banner_l, .web_header_banner_m, .web_header_banner_mm{
     line-height: 25px;
@@ -1067,7 +1074,7 @@ li.feedback_item_w4 {
 	margin: -30px auto 2px;
 	padding-bottom: 2px;
 	background: white;
-	padding-top: 10px;
+	padding-top: 0px;
 }
 
 .scart_con h1 {
@@ -3400,14 +3407,13 @@ input.valid,select.valid,texteara.valid {
 	color: #666666;
 	font-size: 12px;
 	font-family: arial;
-	margin-top: 20px;
+	margin-top: -95px;
 }
 
 .cart-side .allborder {
 	float: left;
-	height: 148px; #
-	hot_selling {width: 972px;
 	margin: 0 auto;
+	width:602px;
 }
 
 .cart-side h4 {

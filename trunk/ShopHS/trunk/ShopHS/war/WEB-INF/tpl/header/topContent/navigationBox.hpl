@@ -26,5 +26,8 @@
 		</form>
 		<p class="hot"><a>Wedding Dresses</a>&nbsp;<a>Bridesmaid Dresses</a></p>
 	</div>
+	<div class="approve">
+		<img src="/style/image/approve.png">
+	</div>
 	<#include "catalog/categoryMenu.hpl">
 	</div>
