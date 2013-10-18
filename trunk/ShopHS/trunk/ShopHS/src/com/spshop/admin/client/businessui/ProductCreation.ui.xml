@@ -94,14 +94,14 @@
 									</g:ListBox>
 								</g:customCell>
 							</g:row>
-							<!-- <g:row>
+							<g:row>
 								<g:customCell>
 									<g:Label text="Abstract:" />
 								</g:customCell>
 								<g:customCell>
-									<p1:RichText />
+									<p1:RichText  ui:field="abstractText" />
 								</g:customCell> 
-							</g:row>-->
+							</g:row>
 							<g:row>
 								<g:customCell>
 									<g:Label text="Detail:" />
