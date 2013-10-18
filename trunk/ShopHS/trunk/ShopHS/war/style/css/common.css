@@ -2200,7 +2200,8 @@ li.scart_c_w_r {
 
 .daily-madness li {
 	height: 335px;
-	margin: 10px 8px 30px;
+	width:212px;
+	margin: 10px 8px 30px 11px;
 	overflow: visible;
 	position: relative;
 }
@@ -2235,6 +2236,7 @@ li.scart_c_w_r {
 	font-size: 16px;
 	left: 7px;
 	position: absolute;
+	top:300px;
 }
 
 .dailyMadness-save .save-title {
@@ -2262,6 +2264,7 @@ li.scart_c_w_r {
 	right: 0;
 	text-align: center;
 	width: 84px;
+	top:310px;
 	text-shadow: 1px 1px #004d7e;
 }
 
@@ -2271,6 +2274,7 @@ li.scart_c_w_r {
 	font-size: 11px;
 	position: absolute;
 	right: 6px;
+	top:297px;
 }
 
 .box-shadow {
@@ -2302,11 +2306,12 @@ li.scart_c_w_r {
 	border: 1px solid #cccccc;
 	display: inline;
 	float: left;
-	height: 145px;
-	margin: 10px 7px 7px 0;
+	height: 154px;
+	margin: 7px 23px 7px 11px;
 	padding: 8px 4px;
-	width: 234px;
+	width: 276px;
 }
+
 
 .other-progoods dl:hover {
 	background: #eeeeee;

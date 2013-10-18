@@ -28,10 +28,10 @@
 						<a href='${(siteView.host + "/" + tabProduct.name)?string!""}' 
 						   title="${tabProduct.title}">
 							<#if (tabProduct.images[0].strSizeType = "PRODUCT_SQUARE")>
-							<img style="width:164px; padding-top: ${hAndPadding[1]?int}px;padding-bottom: ${hAndPadding[1]?int}px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" />
+							<img style="width:190px; padding-top: ${hAndPadding[1]?int}px;padding-bottom: ${hAndPadding[1]?int}px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" />
 							</#if>
 							<#if (tabProduct.images[0].strSizeType = "PRODUCT_NORMAL")>
-							<img style="width:164px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" title="晚上要改"/>
+							<img style="width:190px;" src='${(siteView.imageHost + tabProduct.images[0].thumbnailUrl)?string!""}' alt="${tabProduct.title}" title="晚上要改"/>
 							</#if>
 						</a>
 					</div>
