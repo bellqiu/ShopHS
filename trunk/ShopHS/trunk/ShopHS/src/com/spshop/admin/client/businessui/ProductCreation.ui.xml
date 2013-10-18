@@ -113,14 +113,6 @@
 							</g:row>
 							<g:row>
 								<g:customCell>
-									<g:Label text="Abstract:" />
-								</g:customCell>
-								<g:customCell>
-									<p1:RichText  ui:field="abstractText" />
-								</g:customCell> 
-							</g:row>
-							<g:row>
-								<g:customCell>
 									<g:Label text="Detail:" />
 								</g:customCell>
 								<g:customCell>
