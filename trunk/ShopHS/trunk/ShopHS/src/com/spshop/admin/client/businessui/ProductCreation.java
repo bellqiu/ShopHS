@@ -61,7 +61,7 @@ public class ProductCreation extends Composite{
 	@UiField TextArea keywords;
 	@UiField TextArea tags;
 	@UiField RichText detail;
-	@UiField RichText abstractText;
+	@UiField TextArea abstractText;
 	@UiField CategoryPicker categoryPicker;
 	@UiField ProdImageManager imageManager;
 	@UiField DoubleBox prodPrice;
@@ -74,6 +74,7 @@ public class ProductCreation extends Composite{
 	@UiField Button removeManual;
 	@UiField TabLayoutPanel manual;
 	@UiField ListBox optionTypes;
+	@UiField ListBox absTemplates;
 	@UiField CheckBox enable;
 	
 	private Product product;
@@ -102,6 +103,10 @@ public class ProductCreation extends Composite{
 		optionTypes.addItem("Woman suit Opt", "4");
 		
 		optionTypes.setSelectedIndex(product.getOptType());
+		
+		absTemplates.addItem("Select a Template");
+		absTemplates.addItem("Wedding Dresses", "( Year, Workmanship, Class, Neckline, Sleeve, Waistline, Back Style, Closure, Embellishment, Hemline, Sihouette, Fabric, Built-in bra, Color, Size, Season, Venues, Occasion, Availability, Condition, Package included/ Accessories and so on. )");
+		absTemplates.addItem("Suits", "( Year, Workmanship, Class, Neckline, Sleeve, Waistline, Back Style, Closure, Embellishment, Hemline, Sihouette, Fabric, Built-in bra, Color, Size, Season, Venues, Occasion, Availability, Condition, Package included/ Accessories and so on. )");
 		
 		final ProductCreation self = this;
 		host.addBeforeSelectionHandler(new BeforeSelectionHandler<Integer>() {
@@ -205,6 +210,13 @@ public class ProductCreation extends Composite{
 			}
 		});
 		
+		absTemplates.addChangeHandler(new ChangeHandler() {
+			@Override
+			public void onChange(ChangeEvent e) {
+				abstractText.setValue(absTemplates.getValue(absTemplates.getSelectedIndex()));
+			}
+		});
+		
 		name.setValue(product.getName());
 		title.setValue(product.getTitle());
 		keywords.setValue(product.getKeywords());
@@ -220,6 +232,8 @@ public class ProductCreation extends Composite{
 		showComments.setValue(product.isShowComments());
 		showLikeButton.setValue(product.isShowlikeButton());
 		enable.setValue(product.isDeleted());
+		abstractText.setValue(product.getAbstractText());
+
 	}
 	public Product getProduct() {
 		return product;
@@ -251,6 +265,10 @@ public class ProductCreation extends Composite{
 	@UiHandler("keywords")
 	void onKeywordsKeyUp(KeyUpEvent event) {
 		product.setKeywords(keywords.getValue());
+	}
+	@UiHandler("abstractText")
+	void onAbstractTextKeyUp(KeyUpEvent event) {
+		product.setAbstractText(abstractText.getValue());
 	}
 	@UiHandler("tags")
 	void onTagsKeyUp(KeyUpEvent event) {
@@ -392,6 +410,9 @@ public class ProductCreation extends Composite{
 		
 		return optionTypes;
 		
+	}
+	public ListBox getAbstractTemplates(){
+		return absTemplates;
 	}
 	private boolean isHaveDiffrientTypeImage(){
 		ImageSizeType sizeType = null;
