@@ -2173,14 +2173,18 @@ li.scart_c_w_r {
 	font-size: 12px;
 	line-height: 39px;
 	padding: 0 12px;
+	width:217px;
+	text-align: center;
 }
 
 .promotions-tab h3 a:hover {
 	text-decoration: none;
+	color:#fff;
 }
 
 .promotions-tab .link-now {
 	background: #eeeeee;
+	border-left:1px solid #BEB7B0;
 	color: #4A1805;
 }
 
@@ -2255,10 +2259,10 @@ li.scart_c_w_r {
 	background: url("/css/indexIntegration_011.png") no-repeat scroll 0 0
 		transparent;
 	bottom: 2px;
-	color: #fff;
+	color: #A406B9;
 	font-size: 12px;
 	font-weight: bold;
-	padding-left:5px;
+	padding-left:14px;
 	height: 38px;
 	line-height: 32px;
 	position: absolute;
@@ -2266,7 +2270,6 @@ li.scart_c_w_r {
 	text-align: center;
 	width: 84px;
 	top:310px;
-	text-shadow: 1px 1px #004d7e;
 }
 
 .daily-madness del {

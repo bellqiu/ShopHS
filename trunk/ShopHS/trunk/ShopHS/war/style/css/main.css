@@ -80,6 +80,7 @@
 .footer_customerhelp .first{margin-left: 20px;}
 .footer_customerhelp li span a,.footer_wrapper li a{ font-size: 12px; line-height:1.55;   text-decoration: none;    line-height: 16px;}
 .footer_customerhelp li span a:hover{ text-decoration:underline}
+.footer_customerhelp li.footer_customerhelp_last span{}
 
 .copyright{width:972px;height: 53px;overflow:hidden;height:auto;text-align:center;width:100%;border-top: 1px solid #ddd;padding:10px 0;position:relative;}
 .copyright p{text-align: center;}
