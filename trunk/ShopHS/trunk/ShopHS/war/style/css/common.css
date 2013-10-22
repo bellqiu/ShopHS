@@ -2177,9 +2177,6 @@ li.scart_c_w_r {
 	text-align: center;
 }
 
-.promotions-tab h3 a{
-	color:#333;
-}
 .promotions-tab h3 a:hover {
 	text-decoration: none;
 	color:#fff;
@@ -2192,7 +2189,7 @@ li.scart_c_w_r {
 }
 
 .promotions-tab .link-now a {
-	color: #FF5A00;
+	color: #333;
 }
 
 .promotions-content {
