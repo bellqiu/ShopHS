@@ -2088,8 +2088,8 @@ li.scart_c_w_r {
 .measure_right_link .hot_sale li a {
 	background: url("/style/image/ss.gif") no-repeat scroll right -489px
 		transparent;
-	color: #000000;
-	font-size: 22px;
+	color: #222;
+	font-size: 21px;
 	line-height: 32px;
 	padding: 0 18px 0 0;
 	text-decoration: none;
@@ -2166,24 +2166,27 @@ li.scart_c_w_r {
 }
 
 .promotions-tab h3 {
-	border-right: 1px solid #BEB7B0;
+	border-left: 1px solid #BEB7B0;
 	color: #fff;
 	cursor: pointer;
 	float: left;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 39px;
 	padding: 0 12px;
 	width:217px;
 	text-align: center;
 }
 
+.promotions-tab h3 a{
+	color:#333;
+}
 .promotions-tab h3 a:hover {
 	text-decoration: none;
 	color:#fff;
 }
 
 .promotions-tab .link-now {
-	background: #eeeeee;
+	background: #f17396;
 	border-left:1px solid #BEB7B0;
 	color: #4A1805;
 }
