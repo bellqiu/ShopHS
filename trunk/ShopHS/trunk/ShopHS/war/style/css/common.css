@@ -2311,9 +2311,9 @@ li.scart_c_w_r {
 	display: inline;
 	float: left;
 	height: 154px;
-	margin: 7px 23px 7px 11px;
+	margin: 7px 5px 7px 11px;
 	padding: 8px 4px;
-	width: 276px;
+	width: 290px;
 }
 
 
@@ -2328,7 +2328,7 @@ li.scart_c_w_r {
 }
 
 .other-progoods dl dt img {
-	width: 97px;
+	width: 112px;
 }
 
 .other-progoods dl .goods-name {
