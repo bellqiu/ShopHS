@@ -1,6 +1,6 @@
-<#assign pageKeywords = "Message Box, joybuy.co.uk, Fashion Dress, Apparel, Suits With Free Shipping">
-<#assign pageDescription = "Message Box : joybuy.co.uk - Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping">
-<#assign pageTitle = "Message Box: joybuy.co.uk">
+<#assign pageKeywords = "Message Box, joygown.com, Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageDescription = "Message Box : joygown.com - Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageTitle = "Message Box: joygown.com">
 
 <#include "/header/top.hpl">
 <#include "/body/body-uc-messageList.hpl">	

@@ -1,6 +1,6 @@
-<#assign pageKeywords = "New user registration, joybuy.co.uk, Fashion Dress, Apparel, Suits With Free Shipping">
-<#assign pageDescription = "New user registration : joybuy.co.uk - Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping">
-<#assign pageTitle = "New user registration : joybuy.co.uk">
+<#assign pageKeywords = "New user registration, joygown.com, Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageDescription = "New user registration : joygown.com - Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping">
+<#assign pageTitle = "New user registration : joygown.com">
 
 
 <#include "/header/top.hpl">

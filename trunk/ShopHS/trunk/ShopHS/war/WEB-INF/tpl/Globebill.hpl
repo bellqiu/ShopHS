@@ -1,4 +1,4 @@
-<#assign pageKeywords = "Globebill, Joybuy.com"> 
+<#assign pageKeywords = "Globebill, joygown.com"> 
 <#assign pageDescription = "Pay by Globebill"> 
 <#assign pageTitle = "Pay by Globebill">
 <#include "/header/top_clean.hpl">

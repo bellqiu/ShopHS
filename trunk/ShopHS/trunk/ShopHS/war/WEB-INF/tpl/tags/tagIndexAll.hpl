@@ -1,6 +1,6 @@
-<#assign pageKeywords = "tag, tags, keyword, Joybuy.co.uk">
-<#assign pageDescription = "Tags on Joybuy.co.uk, search your fashion product with tags! Quality Guaranteed! Buy Now!">
-<#assign pageTitle = "Tags on Joybuy.co.uk, find your fashion and cheap product with tags on Joybuy.co.uk!">
+<#assign pageKeywords = "tag, tags, keyword, Joygown.com">
+<#assign pageDescription = "Tags on Joygown.com, search your fashion product with tags! Quality Guaranteed! Buy Now!">
+<#assign pageTitle = "Tags on Joygown.com, find your fashion and cheap product with tags on Joygown.com!">
 
 <#include "/header/top.hpl">
 

@@ -1,6 +1,6 @@
 <#assign pageKeywords = "Page not found">
-<#assign pageDescription = "Page not found, but we have many other quality products on www.joybuy.co.uk">
-<#assign pageTitle = "Page not found, but we have many other quality products on www.joybuy.co.uk">
+<#assign pageDescription = "Page not found, but we have many other quality products on www.joygown.com">
+<#assign pageTitle = "Page not found, but we have many other quality products on www.joygown.com">
 
 <#include "/header/top.hpl">
 
@@ -9,7 +9,7 @@
 <div style="float: left; width: 60%; text-align: left; line-height: 28px; font-family: arial; ">
 That page doesn't seem to exist.<br>The page you are looking for might have been removed and its name had changed, 
 this page is unavailable temporarily.<br>
-<a href="http://www.joybuy.co.uk"><span style="font-size: 18px; font-weight: bold;">Back to home page  &gt; &gt;</span></a><br></div> </div>
+<a href="http://www.joygown.com"><span style="font-size: 18px; font-weight: bold;">Back to home page  &gt; &gt;</span></a><br></div> </div>
 
 
 <#include "/footer/ucf1.hpl">

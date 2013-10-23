@@ -36,7 +36,7 @@
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-38082632-1']);
-		  _gaq.push(['_setDomainName', 'joybuy.co.uk']);
+		  _gaq.push(['_setDomainName', 'joygown.com']);
 		  _gaq.push(['_trackPageview']);
 		
 		  (function() {
