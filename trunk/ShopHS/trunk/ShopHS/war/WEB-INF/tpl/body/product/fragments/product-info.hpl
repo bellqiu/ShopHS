@@ -37,7 +37,7 @@
 			// Define UserAction onject
 			var ua = new gigya.services.socialize.UserAction(); 
 			ua.setLinkBack('${(siteView.host + "/" + productInfo.name)?string!""}'); 
-			ua.setTitle("Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping - joybuy.co.uk");
+			ua.setTitle("Enjoy Online Shopping For Fashion Dress, Apparel, Suits With Free Shipping - joygown.com");
 			
 			ua.addMediaItem( { type: "image", src: '${(siteView.imageHost + productInfo.images[0].largerUrl)?string!""}', href: '${(siteView.host + "/" + productInfo.name)?string!""}' });
 			// Define Share Bar plugin's Parameters	
@@ -60,7 +60,7 @@
 			</label>
 		</span>
 		<a href='${crossSales[crossSaleLink]!""}'> 
-			<img style="width: 100%; margin-top: 10px;" alt="Joybuy promotions " src='${crossSales[crossSaleImg]!""}'>
+			<img style="width: 100%; margin-top: 10px;" alt="Joygown promotions " src='${crossSales[crossSaleImg]!""}'>
 		</a>
 		
 	</div>

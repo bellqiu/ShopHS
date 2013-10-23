@@ -1,4 +1,4 @@
-<#assign pageKeywords = "MasterCard, Visa Card, Globebill, Joybuy.co.uk"> 
+<#assign pageKeywords = "MasterCard, Visa Card, Globebill, joygown.com"> 
 <#assign pageDescription = "Pay by MasterCard, Visa Card, Globebill"> 
 <#assign pageTitle = "Pay by Credit Card: MasterCard, Visa Card">
 <#include "/header/top_clean.hpl">
