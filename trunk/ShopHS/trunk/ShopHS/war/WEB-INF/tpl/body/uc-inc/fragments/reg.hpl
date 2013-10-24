@@ -44,7 +44,7 @@
 					<input type="checkbox" name="acceptLicense" id="cbx_agree" value="true"
 						checked="checked" class="cheo">&nbsp;&nbsp;I agree that I
 					accept <a
-						href="/c/Terms-Conditions"
+						href="http://64.120.146.130:8080/c/Terms-Of-Use"
 						target="_blank" class="cursor_point_and_underline">Terms of
 						Usage</a>
 				</p>

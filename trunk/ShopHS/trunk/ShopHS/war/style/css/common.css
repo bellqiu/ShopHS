@@ -2323,8 +2323,11 @@ li.scart_c_w_r {
 
 .other-progoods dl dt {
 	float: left;
+	
+	
 	overflow: hidden;
 	width: 118px;
+	
 }
 
 .other-progoods dl dt img {
