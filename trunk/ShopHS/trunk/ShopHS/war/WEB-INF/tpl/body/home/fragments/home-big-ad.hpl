@@ -39,40 +39,46 @@
 		</div>
 	</div>
 	<div class="measure_right_link">
-		<div class="like_us">
-			<a class="us"><img alt="lovingness" src="/style/image/lovinvg.jpg"></a>
-			<p>
-				<a>Joygown</a>
-				<button style="width:50px;height: 24px;background: url('/style/image/like_btn_bg.jpg');border: none;"></button>
-				<span>7123</span>
-			</p>
+		<div>
+			<!-- AddThis Button BEGIN -->
+			<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+				<a class="addthis_button_preferred_1"></a>
+				<a class="addthis_button_preferred_2"></a>
+				<a class="addthis_button_preferred_3"></a>
+				<a class="addthis_button_preferred_4"></a>
+				<a class="addthis_button_compact"></a>
+				<a class="addthis_counter addthis_bubble_style"></a>
+			</div>
+			<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f3774750525e36a"></script>
+			<!-- AddThis Button END -->
 		</div>
 		<ul class="hot_sale">
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses">Best Selling</a>
+				<a href="/c/Wedding-Dresses">Best Selling</a>
 				<P>Hot Sale at Joygown&reg; Dress!</P>
 			</li>
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses">PROMOTION</a>
+				<a href="/c/Wedding-Dresses">PROMOTION</a>
 				<P>Up to 70% OFF, Buy it Now!</P>
 			</li>
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses">Bridesmaid Dress</a>
+				<a href="/c/Wedding-Dresses">Bridesmaid Dress</a>
 				<P>A large collection of Bridesmaid<br>Dresses with fashionable styles!</P>
 			</li>
 		</ul>
 		<ul class="hot_sale_link">
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses">LONG FORMAL DRESSES</a>
+				<a href="/c/Wedding-Dresses">LONG FORMAL DRESSES</a>
 			</li>
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses" style="color:#ff0000;">FLOWER GIRL DRESSES</a>
+				<a href="/c/Wedding-Dresses" style="color:#ff0000;">FLOWER GIRL DRESSES</a>
 			</li>
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses">MOTHER OF THE BRIDE</a>
+				<a href="/c/Wedding-Dresses">MOTHER OF THE BRIDE</a>
 			</li>
 			<li>
-				<a href="http://64.120.146.130:8080/c/Wedding-Dresses">WEDDING GUEST DRESSES</a>
+				<a href="/c/Wedding-Dresses">WEDDING GUEST DRESSES</a>
 			</li>
 		</ul>
 	</div>
