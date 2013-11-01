@@ -74,9 +74,16 @@
     margin-left: 8px;
 }
 .footer_customerhelp li .tit {color:#333;font-size:14px;font-weight:bold;margin: 0 0 10px;}
+.footer_customerhelp li p.icons_p{margin: 0 0 5px;}
 .footer_customerhelp li span,.footer_wrapper li {
     display: block;color:#555;padding: 1px 0;
 }
+.footer_customerhelp ._add-icons span{padding: 3px 0 1px 21px;height: 20px;}
+.footer_customerhelp ._add-icons .small_icons1{background: url("/style/image/icons_span_r1_c1.png") no-repeat;}
+.footer_customerhelp ._add-icons .small_icons3{background: url("/style/image/icons_span_r1_c2.png") no-repeat;}
+.footer_customerhelp ._add-icons .small_icons2{background: url("/style/image/icons_span_r1_c3.png") no-repeat;}
+.footer_customerhelp ._add-icons .small_icons4{background: url("/style/image/icons_span_r1_c4.png") no-repeat;}
+.footer_customerhelp ._add-icons .small_icons5{background: url("/style/image/icons_span_r1_c5.png") no-repeat;}
 .footer_customerhelp .first{margin-left: 20px;}
 .footer_customerhelp li span a,.footer_wrapper li a{ font-size: 12px; line-height:1.55;   text-decoration: none;    line-height: 16px;}
 .footer_customerhelp li span a:hover{ text-decoration:underline}
