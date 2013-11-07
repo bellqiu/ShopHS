@@ -129,7 +129,7 @@
 													<li><a href="${siteView.host}/c/${sp.name}"
 															title="${sp.displayName}"> <img width="174"
 																border="0" height="84"
-																src="http:/www.joygown.com/${sp.specialOfferImage.noChangeUrl}">
+																src='${(siteView.imageHost + sp.specialOfferImage.noChangeUrl)!""}'>
 														</a></li>
 											</#if>
 										</ul>
