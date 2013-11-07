@@ -272,7 +272,7 @@
 				</div>
 		</div>
 	</div>
-	<form action="/uc/checkout" >
+	<form action="http://www.joygown.com/uc/checkout" >
 	<div class="cart_list_block">
 		<h1 class="title">Payment Method</h1>
 		<div class="payment">
@@ -297,15 +297,15 @@
 					<span class="visaEIcon"></span>
 					<span class="mcardIcon2"></span>
 					<span class="westernUIcon"></span>
-					<img src="/style/image/logoAmex.png" style="height: 29px;"/>
+					<!--  <img src="/style/image/logoAmex.png" style="height: 29px;"/>
 					<img src="/style/image/logoDiners.png" style="height: 29px;"/>
-					<img src="/style/image/logoDiscover.png" style="height: 29px;"/>
+					<img src="/style/image/logoDiscover.png" style="height: 29px;"/> -->
 					
 				</p>
 			</div>
 			
 			<!-- <div id="CheckOut" class="paymentmethod"> 
-				<p>We accept the following credit and debit cards: </p>
+				<p>We accept the following credit and debit cards: </p> 
 				<p>Note: For security purposes, we will not save any of your credit card data. </p>
 				<p>
 					<img src="/style/image/logoVisa.png" style="height: 29px;"/>
