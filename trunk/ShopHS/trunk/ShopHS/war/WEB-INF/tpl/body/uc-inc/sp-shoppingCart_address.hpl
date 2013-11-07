@@ -119,7 +119,7 @@
 					<p>Leave your special requirements here:</p>
 					<div class="form_error red" id="order_msg_noti"></div>
 					<textarea maxlength="800" rows="2" class="order_msg" name="order_msg" id="order_msg">${(order.customerMsg)!''}</textarea>
-					<span style="padding-left: 2px;" ><input	type="button" class="button_01" id="submit_coupon" value="Submit" onclick="jq.HB.applyMsg('${order.name}')"></span>
+					<span style="padding-left: 2px;" ><input type="button" class="button_01" id="submit_coupon" value="Apply" onclick="jq.HB.applyMsg('${order.name}')"></span>
 				</div>
 		</div>
 	</div>
@@ -257,46 +257,65 @@
 								}
 					      </script>
 					   <div>
-						   <img alt="free shipping" src="/css/shipping.jpg" class="free-shipping-img">
+						   <img alt="Free" src="/css/shipping.jpg" class="free-shipping-img">
 							<p class="red">When will my order arrive?</p>
-							<p style="margin: 6px 0px 0px 16px;">
+							<p style="margin: 12px;">
 							<img src="/style/image/processing-time.jpg"></p>
-							<ul><li style="line-height:20px;">Processing time is the time includes preparing your items, performing quality checks, and packing for shipment.
+					
+							<ul>
+							<li style="line-height:20px;">Processing time is the time includes preparing your items, performing quality checks, and packing for shipment.
 							<br>
 							<strong>Processing Time: </strong>7-12 days for standard, 5-8 days for urgent(Custom-Made Items)
-                 1-3 Days for others(Ready to Ship Items)
-. 
-							<strong> Shipping Time: </strong>3-5 business days. </li></ul>
+                 1-3 Days for others(Ready to Ship Items). <strong> Shipping Time: </strong>3-5 business days. </li></ul>
 								
 					   </div>
 				</div>
 		</div>
 	</div>
-	<form action="http://${RawRequest.serverName}/uc/checkout" >
+	<form action="/uc/checkout" >
 	<div class="cart_list_block">
 		<h1 class="title">Payment Method</h1>
 		<div class="payment">
 			<select name="payment">
 				<option value="allpaymthod">Please select your payment method</option>
-				<!--  <option value="Globebill"  >Credit or Debit Card</option> -->
-				<option value="paypal" selected="selected">Paypal</option>
+				<!-- <option value="CheckOut" selected="selected">Checkout</option> -->
+				<option value="Globebill">Credit or Debit Card</option>
+				<!-- <option value="paypal">Paypal</option> -->
 				<option value="WesternUnion">Western Union</option>
 				<option value="WireTransfer">Wire Transfer</option>
+			
 			</select>
 			
 			<div id="allpaymthod" class="paymentmethod"> 
-				<p>We currently accept PayPal, common credit and debit cards, Western Union, wire transfer and realtime bank 
+				<p>We currently accept Common credit and debit cards, Western Union, wire transfer and real-time bank 
 				transfer for all orders (you can check the availability listed below). We also take security very seriously indeed, 
 				so your details will be safe with us. </p>
 				<p>
-					<span class="paypalIcon2"></span>
+					<!-- <span class="paypalIcon2"></span>  -->
 					<span class="visaIcon"></span>
 					<span class="mcardIcon"></span>
 					<span class="visaEIcon"></span>
 					<span class="mcardIcon2"></span>
 					<span class="westernUIcon"></span>
+					<img src="/style/image/logoAmex.png" style="height: 29px;"/>
+					<img src="/style/image/logoDiners.png" style="height: 29px;"/>
+					<img src="/style/image/logoDiscover.png" style="height: 29px;"/>
+					
 				</p>
 			</div>
+			
+			<!-- <div id="CheckOut" class="paymentmethod"> 
+				<p>We accept the following credit and debit cards: </p>
+				<p>Note: For security purposes, we will not save any of your credit card data. </p>
+				<p>
+					<img src="/style/image/logoVisa.png" style="height: 29px;"/>
+					<img src="/style/image/logoMC.png" style="height: 29px;"/>
+					<img src="/style/image/logoAmex.png" style="height: 29px;"/>
+					<img src="/style/image/logoDiners.png" style="height: 29px;"/>
+					<img src="/style/image/logoDiscover.png" style="height: 29px;"/>
+					<img src="/style/image/logoJcb.png" style="height: 29px;"/>
+				</p>
+			</div>  -->
 			
 			<div id="Globebill" class="paymentmethod">
 				<p>We accept the following credit and debit cards: </p>
@@ -304,19 +323,19 @@
 				<p>
 					<span class="visaIcon"></span>
 					<span class="mcardIcon"></span>
-					<span class="visaEIcon"></span>
-					<span class="mcardIcon2"></span>
+					<!-- <span class="visaEIcon"></span>
+					<span class="mcardIcon2"></span> -->
 				</p>
 			</div>	
 			
 			<div id="paypal" class="paymentmethod">
 				<p>Existing PayPal users can complete your payment using your PayPal account.
-				<p>If you do not have a PayPal account yet, you can still complete the payment using a wide variety of credit/debit cards. 	</p>
-				<p>We accept payments in many currencies.</p>
+				<p>New PayPal users can register a PayPal account first, then continue the payment on PayPal website.</p>
+				<p>Note: you can send money to us on PayPal directly, our account is: XXX (accept many currencies).</p>
 				<a target="_blank" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside">
-				<img src="/style/image/paypal.gif" style="padding-bottom: 18px;" alt="Checkout with PayPal-Faster, Safer, Easier." title="Checkout with PayPal-Faster, Safer, Easier." >
+				<img alt="Checkout with PayPal – Faster. Safer. Easier." title="Checkout with PayPal – Faster. Safer. Easier." src="/style/image/paypal.gif">
 				</a>
-				<a class="paypalIcon" target="_blank" href="https://www.paypal.com/verified/pal=pay@joygown.com" alt="Paypal verified Merchant: Globally Accepted and Purchase Protection" title="Paypal verified Merchant: Globally Accepted and Purchase Protection"></a>
+				<a class="paypalIcon" target="_blank" href=" "></a>
 			</div>	
 			
 			<div id="WesternUnion" class="paymentmethod WesternUnionText">
