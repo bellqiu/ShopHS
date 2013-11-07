@@ -538,6 +538,8 @@ public class ComponentQuery extends ResizeComposite {
 		DateTimeFormat dateTimeFormat = DateTimeFormat.getFormat("yy/MM/dd");
 		for (int i = 0; i < result.getResult().size(); i++) {
 			Image image = (Image) result.getResult().get(i);
+			if (isValidImage(image)) {
+				
 			table.setWidget(i, 0, new com.google.gwt.user.client.ui.Image(
 					image.getIconUrl()));
 			table.setText(i, 1, image.getName());
@@ -562,9 +564,21 @@ public class ComponentQuery extends ResizeComposite {
 			table.setWidget(i, 4, operation);
 			table.getCellFormatter().setHorizontalAlignment(i, 4,
 					HasHorizontalAlignment.ALIGN_RIGHT);
+			}
 		}
 	}
 	
+	private boolean isValidImage(Image image) {
+		if (image != null && image.getIconUrl() != null
+				&& image.getName() != null 
+				&& image.getSizeType() != null
+				&& image.getCreateDate() != null) {
+			return true;
+		}
+		return false;
+	}
+
+
 	private void updateOrder() {
         DateTimeFormat dateTimeFormat = DateTimeFormat.getFormat("yy/MM/dd");
         for (int i = 0; i < result.getResult().size(); i++) {
